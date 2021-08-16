@@ -1,7 +1,7 @@
 ### Introduction
 ![image](https://user-images.githubusercontent.com/83176990/129499810-55183e75-5e0c-4348-9d6d-92849437c911.png)
 
-Hello, my name is Ryan DeBraal. I live with my wife in Chicago and work as a Software Developer in the Information Security sector. I have been attending SNHU for approximately three years. I returned to academia after a ten-year hiatus because I wanted to complete my degree. 
+My name is Ryan DeBraal, I am originally from rural Wisconsin but now live with my wife in Chicago. I work as a Software Developer in the Information Security sector. I have been attending SNHU for approximately three years. I returned to academia after a ten-year hiatus because I wanted to complete my degree. 
 
 When I was twenty-four years old I was hired for a six-month contract at Kimberly Clark, the corporation best known for Kleenex, to help develop a Regulatory Affairs document management system. This six-month contract became a three-year contract and during that time school fell by the wayside.
 
