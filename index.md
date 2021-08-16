@@ -65,7 +65,7 @@ The first step in developing code is to make it do what the customer wants, the 
 
 Coding something that works is the most important, but coding something that can be easily interpreted by another developer is a close second.
 
-In the (probably misattributed) words of Albert Einstein:
+In the (almost certainly misattributed) words of Albert Einstein:
 
 > If you can't explain it simply, you don't understand it well enough. (Unknown)
 
