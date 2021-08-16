@@ -79,7 +79,7 @@ Stackoverflow.com. Did Einstein say "if you can't explain it simply you don't un
 ---
 
 ## Code Review
-![image](https://user-images.githubusercontent.com/83176990/129500048-e2f1c314-3a3b-42d4-8211-9d02787ac507.png)
+![image](https://user-images.githubusercontent.com/83176990/129506616-158763e0-733d-4507-92b2-f0eb847c8d9f.png)
 
 ### Links
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/2-1.Journal.What.Makes.a.Productive.Code.Review-Ryan.DeBraal.pdf).
