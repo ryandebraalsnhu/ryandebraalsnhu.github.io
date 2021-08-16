@@ -21,6 +21,8 @@ My objective while creating this ePortfolio was to curate the work that I have d
 
 This ePortfolio represents only a small vertical slice of my development experiences at SNHU.
 
+---
+
 ### What Makes a Productive Code Review?
 ![image](https://user-images.githubusercontent.com/83176990/129496538-24f8168d-57e9-4912-bb0b-e97ca50cb780.png)
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/2-1.Journal.What.Makes.a.Productive.Code.Review-Ryan.DeBraal.pdf).
@@ -37,10 +39,14 @@ Code reviews should occur frequently throughout the development process. The Agi
 
 Personally, I have found live demonstrations to be the most effective method of code review. It has been my experience that software developers can become very myopic when looking at the code rather than how the code functions from the perspective of the user. No code is bug free, and all code can always be improved in one way or another, but it is important that the developer understands that what they are building is ultimately to satisfy a customer’s needs. So, the first step in developing code is to make it do what the customer wants, the second step should be to retain the quality of the code but still make sure that it does what the customer wants. I have seen numerous occasions when code refactoring has resulted in much cleaner code that no longer performs the basic operations that the “spaghetti code” mysteriously was able to achieve.
 
+---
+
 ### Initial code review
 ![image](https://user-images.githubusercontent.com/83176990/129500048-e2f1c314-3a3b-42d4-8211-9d02787ac507.png)
 
 The following projects have been adapted from their original submissions. A code review was conducted by myself early in this course. This code review can be viewed [here](https://www.youtube.com/watch?v=jG0b8Cf76q8) (~52 minutes).
+
+---
 
 ### Artifact One: Search Methodologies (Data Structures and Algorithms)
 ![image](https://user-images.githubusercontent.com/83176990/129497305-be8187b0-1f5d-49de-9e96-ef03fff7e9d7.png)
@@ -89,6 +95,8 @@ InterviewBit. “Linked Lists.” InterviewBit, [www.interviewbit.com/courses/pr
 Nilsson, Stefan. “Binary Search Trees Explained.” · YourBasic, Yourbasic.org, [www.yourbasic.org/algorithms/binary-search-tree/](www.yourbasic.org/algorithms/binary-search-tree/)
 ZyBooks, [https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1](https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1)
 
+---
+
 ### Artifact Two: Grazioso Salvare Austin Animal Shelter CRUD (Client\Server Development)
 ![image](https://user-images.githubusercontent.com/83176990/129497826-14effb73-987a-482b-b5e7-5061ae2799e2.png)
 ###### This project is available for [Download](https://ryandebraal.com/downloads/Artifact.Two.Client.Server.Development.zip). 
@@ -100,12 +108,13 @@ For this artifact I chose to enhance the final project for CS-499-X6397 Computer
 Enhancing this project was quite a bit more difficult than Artifact One. For starters, the Virtual Machine (VM) that I had used to develop this application had already been wiped of my credentials! In order to enhance this application I had to first setup a local MongoDB instance on my home machine, then hunt down the original [JSON file](https://catalog.data.gov/de/dataset/austin-animal-center-intakes/resource/3762cdf8-ccdb-4de5-83a1-bb7d98a00f12) needed to import the data into the instance. Finnally, I had to setup Jupyter Notebook in Windows, which first required installation of Anaconda, a package manager similar to Node Package Manager (npm), which I use quite often in my work life.
 
 ## Functionality
-The application in its current state can be used to navigate the AAC database, filter by various conditions, visualize the GPS location where the animal was found, and generate a breakdown of outcomes per filtered section. In the future this application can be expanded to create a fully realized CRUD application capable of maintaining the data retained and administrated by the Austin Animal Control Center.
+The application in its current state can be used to navigate the AAC database, filter by various conditions, visualize the GPS location where the animal was found, and generate a breakdown of outcomes per filtered section. In the future this application can be expanded to create a fully realized CRUD application capable of maintaining the data retained and administrated by the Austin Animal Control Center. 
 
-## Tools and rationale
 This application was developed to leverage the pre-existing instance of MongoDB, which is a document-based, “No-SQL” database. The data access layer (DAL), or Controller in MVC parlance, utilizes [PyMongo](https://pymongo.readthedocs.io/en/stable/) to create, read, update, and delete (CRUD) data. The user interface, or View in MVC parlance, is powered by [Dash](https://dash.plotly.com/introduction), a framework for building web analytic applications.
 
 These technologies were chosen for their relative ease of use and rapid stand-up time. Each component of this n-tier application was developed modularly so that it could be enhanced or swapped out easily in the future as need dictates. For example, if the client decided that they wanted the application to run on the Django web framework, they could simply reutilize the existing CRUD.py component and write a new user interface.
+
+---
 
 ### Artifact Three: MinimalYST - A minimalist Open GL tribute to Myst (Software Design and Engineering)
 ![image](https://user-images.githubusercontent.com/83176990/129498322-bd4ebb7a-2826-4ee0-9c11-9f8eac98120d.png)
@@ -113,8 +122,7 @@ These technologies were chosen for their relative ease of use and rapid stand-up
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/computer-graphics-portfolio).
 ###### This project can be seen on [YouTube](https://www.youtube.com/watch?v=EV29wz9A6gs&t=4s).
 
-# Narrative
-
+## Narrative
 This project written in C++ and utilizing several OpenGL libraries was created as my final project for the course: Computer Graphic and Visualization. It was meant to be a minimalist tribute to the classic point-and-click adventure game, Myst.
 
 This was a particularly challenging project to complete initially as it was a culmination of almost every lesson I've learned at SNHU including design and analysis, planning, time management, object oriented programming (OOP), geometry, physics, data structures, and perhaps most importantly: the ability to learn and adapt.
