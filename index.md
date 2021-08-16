@@ -5,7 +5,7 @@ My name is Ryan DeBraal, I am originally from rural Wisconsin but now live with 
 
 When I was twenty-four years old I was hired for a six-month contract at a local corporation best known for manufacturing toilet paper, to help develop a Regulatory Affairs document management system. This six-month contract became a three-year contract and during that time school fell by the wayside.
 
-Fast forward to 2018, I have been hired as a full-time employee at a Fortune 500 company with nothing on my resume but a High School education. My wife, having witnessed my self-consciousness about by level of formal education (or lack thereof), suggested I return to school and finish my degree. To my astonishment and delight a great deal of my credits from a decade ago transferred over.
+Fast forward to 2018, I've moved to Chicago and have been hired as a full-time employee at a Fortune 500 company with nothing on my resume but a High School education. My wife, having witnessed my self-consciousness about by level of formal education (or lack thereof), suggested I return to school and finish my degree. To my astonishment and delight a great deal of my credits from a decade ago transferred over.
 
 SNHU has taught me several valuable lessons. I think the most important of which is that they have refreshed my memory on how to “learn” in an academic environment. I never took school very seriously; I was always smart enough to be able to just glance at material and make assumptions about its content and pull off a passing grade. 
 
@@ -44,16 +44,13 @@ The following projects have been adapted from their original submissions. A code
 ###### This project is available for [Download](https://ryandebraal.com/downloads/4-2.Milestone.Three.Enhancement.Two-Ryan.DeBraal.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/Artifact.One.Data.Structures.and.Algorithms).
 
+## Description
 For this artifact I chose to consolidate the assignments of Module Three, Five and Six of the CS-260-Q3396 Data Structures and Algorithms course into a single project and allow the user to select which mode they would like to utilize in order to load, read, search and delete bids from a data structure. This was a valuable experience for me because as I revisited each methodology and directly compared them against each other I became much more familiar with the pros and cons of each data structure type.
 
-## Data Structures
-Main.cpp in the FinalProject solution best exemplifies my knowledge and understanding of the data structure types we learned about in this course.
-
+### Data Structures
 The Linked List mode pulls the data from the CSV and stores it in a data structure with a dynamic size. However, this methodology has several drawbacks:
-•	They can only be iterated across in one direction, from the beginning or “head” to the end or “tail”, this means there is no “random access” allowed.
-•	A pointer to the head node must be constantly maintained. 
-
-Fig 1. Linked Lists
+- They can only be iterated across in one direction, from the beginning or “head” to the end or “tail”, this means there is no “random access” allowed.
+- A pointer to the head node must be constantly maintained. 
 
 ![image](https://user-images.githubusercontent.com/83176990/129496849-fb9c8cbd-d7d8-4264-918d-a178f2c83c43.png)
 
@@ -62,15 +59,11 @@ The Hash Table mode pulls the data into a data structure which utilizes a vector
 By being able to simply “lookup” a specific data point in a collection, the ability to retrieve information becomes straightforward. This is a significant improvement over having to iterate across a collection until a match is found.
 To avoid collisions,  each “cell” of a hash table is actually a linked list of records so that data can be retrieved from a certain hash index in the same manner as the aforementioned linked list.
 
-Fig 2. Hash Table with Chaining
-
 ![image](https://user-images.githubusercontent.com/83176990/129496859-f40bf7e9-4b57-447e-8a68-fc99259b4847.png)
 
 The Binary Search Tree mode stores data in a more complex way and is therefore a little more unwieldy but search capabilities are significantly improved because of the way the data is stored and retrieved.
 
 In a Binary Search Tree, each node contains a value from a well-ordered set. Every node in the left subtree contains a value which is smaller than the value in the current node, and every node in the right subtree contains a value which is larger than the value in the current node. This allows for simple boolean logic to quickly search for and retrieve data because the data is being navigated through rather than iterated across.
-
-Fig 3. Binary Search Tree
 
 ![image](https://user-images.githubusercontent.com/83176990/129496862-cf4162b4-b299-4f71-94c6-4d5dfe1579e5.png)
 
@@ -104,7 +97,9 @@ I was routinely surprised by the amount of effort put into creating things that 
 
 ### Citations
 Insertion Sort for Singly Linked List. GeeksforGeeks, 3 Feb. 2020, [www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/](www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
+
 InterviewBit. “Linked Lists.” InterviewBit, [www.interviewbit.com/courses/programming/topics/linked-lists/](www.interviewbit.com/courses/programming/topics/linked-lists/)
+
 Nilsson, Stefan. “Binary Search Trees Explained.” · YourBasic, Yourbasic.org, [www.yourbasic.org/algorithms/binary-search-tree/](www.yourbasic.org/algorithms/binary-search-tree/)
 ZyBooks, [https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1](https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1)
 
@@ -113,10 +108,8 @@ ZyBooks, [https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1]
 ###### This project is available for [Download](https://ryandebraal.com/downloads/Artifact.Two.Client.Server.Development.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/ClientServer_PortfolioItem).
 
-For this artifact I chose to submit the final project for CS-499-X6397 Computer Science Capstone 21EW6, an application which is used to create, read, update, and delete (CRUD) records from a MongoDB database.
-
-## Motivation
-Animal Shelter was created to facilitate record keeping for the Austin Animal Control Center (AAC) database.
+## Description
+For this artifact I chose to enhance the final project for CS-499-X6397 Computer Science Capstone 21EW6, an application which is used to create, read, update, and delete (CRUD) records from a MongoDB database.
 
 ## Functionality
 The application in its current state can be used to navigate the AAC database, filter by various conditions, visualize the GPS location where the animal was found, and generate a breakdown of outcomes per filtered section. In the future this application can be expanded to create a fully realized CRUD application capable of maintaining the data retained and administrated by the Austin Animal Control Center.
@@ -131,6 +124,15 @@ These technologies were chosen for their relative ease of use and rapid stand-up
 ###### This project is available for [Download](https://ryandebraal.com/downloads/2-2.Milestone.One.Code.Review.mp4). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/computer-graphics-portfolio).
 ###### This project can be seen on [YouTube](https://www.youtube.com/watch?v=EV29wz9A6gs&t=4s).
+
+
+
+
+
+
+
+
+
 
 ## How do I approach designing software?
 
@@ -258,8 +260,9 @@ just a highly wrappered version of underlying C++ functionalities.
 
 ## Citations
 
-Allen, A. (2016, August 15). What is dependency hell? Retrieved April 25, 2021, from https://searchitoperations.techtarget.com/definition/dependency-hell
-Contieri, M. (2020, May 26). Fail fast PHILOSOPHY, Explained. Retrieved April 25, 2021, from https://hackernoon.com/fail-fast-philosophy-explained-si963vk9
+Allen, A. (2016, August 15). What is dependency hell? Retrieved April 25, 2021, from [https://searchitoperations.techtarget.com/definition/dependency-hell](https://searchitoperations.techtarget.com/definition/dependency-hell)
+
+Contieri, M. (2020, May 26). Fail fast PHILOSOPHY, Explained. Retrieved April 25, 2021, from [https://hackernoon.com/fail-fast-philosophy-explained-si963vk9](https://hackernoon.com/fail-fast-philosophy-explained-si963vk9)
 
 
 
