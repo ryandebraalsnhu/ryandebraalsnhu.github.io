@@ -70,7 +70,7 @@ In the (almost certainly misattributed) words of Albert Einstein:
 > If you can't explain it simply, you don't understand it well enough. (Unknown)
 
 ### Citations
-Contieri, M. (2020, May 26). Fail fast PHILOSOPHY, Explained. Retrieved April 25, 2021, from [https://hackernoon.com/fail-fast-philosophy-explained-si963vk9](https://hackernoon.com/fail-fast-philosophy-explained-si963vk9)
+Contieri, M. (2020, May 26). Fail fast PHILOSOPHY, Explained. Retrieved April 25, 2021, from [https://hackernoon.com/fail-fast-philosophy-explained-si963vk9](https://hackernoon.com/fail-fast-philosophy-explained-si963vk9).
 
 ---
 
@@ -190,4 +190,4 @@ Overall, this was my favorite project to work on because it required a very high
 
 ### Citations
 
-Allen, A. (2016, August 15). What is dependency hell? Retrieved April 25, 2021, from [https://searchitoperations.techtarget.com/definition/dependency-hell](https://searchitoperations.techtarget.com/definition/dependency-hell)
+Allen, A. (2016, August 15). What is dependency hell? Retrieved April 25, 2021, from [https://searchitoperations.techtarget.com/definition/dependency-hell](https://searchitoperations.techtarget.com/definition/dependency-hell).
