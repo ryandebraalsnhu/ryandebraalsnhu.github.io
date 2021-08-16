@@ -21,7 +21,7 @@ This ePortfolio represents only a small vertical slice of my development experie
 
 Whenever possible I try to employ a "fail fast" philosophy, which is sometimes known as "defensive programming".
 
-Whenever I write code, I immedietly try to determine if the data is valid. If it isn't, I stop working with it immediately and return a well formatted exception. It is pointless to try to "shove bad data" through the business logic.
+Whenever I write code, I immediately try to determine if the data is valid. If it isn't, I stop working with it immediately and return a well formatted exception. It is pointless to try to "shove bad data" through the business logic.
 
 I've often seen code online that looks like this:
 
