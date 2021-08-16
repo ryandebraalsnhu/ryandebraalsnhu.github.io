@@ -53,9 +53,11 @@ Personally, I have found live demonstrations to be the most effective method of 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/Artifact.One.Data.Structures.and.Algorithms).
 
 ### Narrative
-For this artifact I chose to consolidate the assignments of Module Three, Five and Six of the CS-260-Q3396 Data Structures and Algorithms course into a single project and allow the user to select which mode they would like to utilize in order to load, read, search and delete bids from a data structure. This was a valuable experience for me because as I revisited each methodology and directly compared them against each other I became much more familiar with the pros and cons of each data structure type. This project is a good example of my ability organize data into collections and use search algorithms (such as Binary Search Tree) to navigate the data in an efficient manner.
+For this artifact I chose to consolidate the assignments of Module Three, Five and Six of the CS-260 Data Structures and Algorithms course into a single project and allow the user to select which mode they would like to utilize in order to load, read, search, and delete bids from a data structure. This was a valuable experience for me because as I revisited each methodology and directly compared them against each other I became much more familiar with the pros and cons of each data structure type. This project is a good example of my ability organize data into collections and use search algorithms (such as Binary Search Tree) to navigate the data in an efficient manner.
 
-Enhancing this project was a pretty straight forward endeavor. Since I had developed this application quite some time ago I have natural become a more through developer, so revisiting my own "old code" caused me to immediately recognize some deficents that could be repaired.
+I think the code is highly reusable, all the data structure implementations can be adapted to another project simply be swapping our the Bid struct for another object that needs to be maintained in a collection. I am pleased with the annotations I placed in the code base, I try to code based on a motto I heard several years ago: “verbosity over brevity”. To me this means it does not serve anyone better to write code that isn’t cleanly organized and well documented. I think software developers are often tempted to try to condense their code into the smallest amount of space as possible, especially with the advent of LINQ. 
+
+Enhancing this project was a pretty straight forward endeavor. Since I had developed this application quite some time ago I had naturally become a more proficient developer, so revisiting my "old code" caused me to immediately recognize some deficents that could be quickly repaired.
 
 ### Functionality
 The Linked List mode pulls the data from the CSV and stores it in a data structure with a dynamic size. However, this methodology has several drawbacks:
@@ -76,10 +78,6 @@ In a Binary Search Tree, each node contains a value from a well-ordered set. Eve
 
 ![image](https://user-images.githubusercontent.com/83176990/129496862-cf4162b4-b299-4f71-94c6-4d5dfe1579e5.png)
 
-I think the code is highly reusable, all the data structure implementations can be adapted to another project simply be swapping our the Bid struct for another object that needs to be maintained in a collection.
-
-I am pleased with the annotations I placed in the code base, I try to code based on a motto I heard several years ago: “verbosity over brevity”. To me this means it does not serve anyone better to write code that isn’t cleanly organized and well documented. I think software developers are often tempted to try to condense their code into the smallest amount of space as possible, especially with the advent of LINQ. 
-
 ### Citations
 Insertion Sort for Singly Linked List. GeeksforGeeks, 3 Feb. 2020, [www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/](www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
 
@@ -98,7 +96,7 @@ ZyBooks, [https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1]
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/ClientServer_PortfolioItem).
 
 ### Narrative
-For this artifact I chose to enhance the final project for CS-499-X6397 Computer Science Capstone 21EW6, an application which is used to create, read, update, and delete (CRUD) records from a MongoDB database. This project is a good example of my ability to manipulate data in a database through a GUI.
+For this artifact I chose to enhance the final project for CS-260 Data Structures and Algorithms, an application which is used to create, read, update, and delete (CRUD) records from a MongoDB database. This project is a good example of my ability to manipulate data in a database through a GUI.
 
 Enhancing this project was quite a bit more difficult than Artifact One. For starters, the Virtual Machine (VM) that I had used to develop this application had already been wiped of my credentials! In order to enhance this application I had to first setup a local MongoDB instance on my home machine, then hunt down the original [JSON file](https://catalog.data.gov/de/dataset/austin-animal-center-intakes/resource/3762cdf8-ccdb-4de5-83a1-bb7d98a00f12) needed to import the data into the instance. Finnally, I had to setup Jupyter Notebook in Windows, which first required installation of Anaconda, a package manager similar to Node Package Manager (npm), which I use quite often in my work life.
 
@@ -119,7 +117,6 @@ Introduction to dash. Plotly. (n.d.). [https://dash.plotly.com/introduction](htt
 
 PyMongo 3.12.0 documentation. PyMongo 3.12.0 Documentation - PyMongo 3.12.0 documentation. (n.d.). [https://pymongo.readthedocs.io/en/stable/](https://pymongo.readthedocs.io/en/stable/). 
 
-
 ---
 
 ## Artifact Three: MinimalYST - A minimalist Open GL tribute to Myst (Software Design and Engineering)
@@ -131,26 +128,14 @@ PyMongo 3.12.0 documentation. PyMongo 3.12.0 Documentation - PyMongo 3.12.0 docu
 ###### This project can be seen on [YouTube](https://www.youtube.com/watch?v=EV29wz9A6gs&t=4s) (~3 min).
 
 ### Narrative
-This project written in C++ and utilizing several OpenGL libraries was created as my final project for the course: Computer Graphic and Visualization. It was meant to be a minimalist tribute to the classic point-and-click adventure game, Myst. This project is a good example of my ability to utilize third party libraries and combine them effectively into a cohesive experience.
+For this artifact I chose to enhance the final project for CS-330 Computer Graphic and Visualization, this project utilizes several third party OpenGL libraries. It was meant to be a minimalist tribute to the classic point-and-click adventure game, Myst. This project is a good example of my ability to utilize third party libraries and combine them effectively into a cohesive experience.
 
-This was a particularly challenging project to complete initially as it was a culmination of almost every lesson I've learned at SNHU including design and analysis, planning, time management, object oriented programming (OOP), geometry, physics, data structures, and perhaps most importantly: the ability to learn and adapt.
+This was a particularly challenging project to complete initially as it was a culmination of almost every lesson I've learned at SNHU including design and analysis, planning, time management, object oriented programming (OOP), geometry, physics, data structures, and perhaps most importantly: the ability to learn and adapt quickly.
 
 ### Functionality
+The application in its current state is a simple 3D scene with the ability to walk around using the keyboard and look around using the mouse. There are several "algorithmic systems" implemented including a day/night cycle, and the flickering glow of a candle.
 
-Working with OpenGL has given me a better understanding of how C++ organizes it's dependancies. I usually work with C#, which allows you to very easily grab a dependancy 
-either from the managed code bases (i.e. System.Web.dll) or by linking to a class library project within your solution.
-
-I found it challenging and interesting to have the "raw" code for dependancies to be so readily at your finger tips. If need be, a developer could fork an existing dependancy and customize it to their particular needs. I now have a much better understanding of "Dependancy Hell". (Allen, 2016)
-
-While working on this project, I tried to be as iterative as possible. I would not have been able to produce the final project had I not spent the prior six weeks using my existing codebase as the start to each week's assignment. The ability to organize work efforts and execute them in a timely manner, in a logical order is a skill that will serve a developer well not only in their professional career but also in life.
-
-I think the existing development strategies that I use in my professional life worked well. However, if I were able to give advice to my past self (or to future students) it would be to better familiarize yourself with the way C++ structures an application.
-
-I lost hours of productively simply trying to get header files to read from eachother in the correct order. When it finally did work, I had sort of a "Frakenstein" system cobbled together.
-
-I've been using "computer science" since I was 5 years old. It is an essential part of my life and not only has it provided me with a comfortable lifestyle but it has helped me to develop useful skillsets in other areas of my life. The ability to break down situations into logical steps and then execute them in focused "sprints" has helped me do everything from: getting a paycheck to assembling furniture from Ikea.
-
-I have a new found respect for C++ developers. I wouldn't pursue it as a career, but I definetly have a better understanding of the need to be iterative when creating things. Even C# is essentially just a highly wrappered version of underlying C++ functionalities.
+Overall, this was my favorite project to work on because it required a very high degree of understanding but also allowed me to express myself creatively. 
 
 ### Citations
 
