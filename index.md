@@ -3,9 +3,9 @@
 
 My name is Ryan DeBraal, I am originally from rural Wisconsin but now live with my wife in Chicago. I work as a Software Developer in the Information Security sector. I have been attending SNHU for approximately three years. I returned to academia after a ten-year hiatus because I wanted to complete my degree. 
 
-When I was twenty-four years old I was hired for a six-month contract at a local corporation best known for manufacturing toilet paper, to help develop a Regulatory Affairs document management system. This six-month contract became a three-year contract and during that time school fell by the wayside.
+When I was twenty-four years old I was hired for a six-month contract to develop a regulatory affairs document management system at a local corporation best known for manufacturing toilet paper. Fast forward to 2018, I've moved to Chicago and have been hired as a full-time employee at a Fortune 500 company with nothing on my resume but a High School education. 
 
-Fast forward to 2018, I've moved to Chicago and have been hired as a full-time employee at a Fortune 500 company with nothing on my resume but a High School education. My wife, having witnessed my self-consciousness about by level of formal education (or lack thereof), suggested I return to school and finish my degree. To my astonishment and delight a great deal of my credits from a decade ago transferred over.
+My wife, having witnessed my self-consciousness about by level of formal education (or lack thereof), suggested I return to school and finish my degree. To my astonishment and delight a great deal of my credits from a decade ago transferred over.
 
 SNHU has taught me several valuable lessons. I think the most important of which is that they have refreshed my memory on how to “learn” in an academic environment. I never took school very seriously; I was always smart enough to be able to just glance at material and make assumptions about its content and pull off a passing grade. 
 
@@ -147,7 +147,7 @@ Contieri, M. (2020, May 26). Fail fast PHILOSOPHY, Explained. Retrieved April 25
 
 ## Self Assessment
 
-Whenever possible I try to employ a "fail fast" philosophy, which is sometimes known as "defensive programming". (Contieri, 2020) 
+Whenever possible I try to employ a "fail fast" philosophy, which is sometimes known as "defensive programming".
 
 Whenever I write code, I immedietly try to determine if the data is valid. If it isn't, I stop working with it immediately and return a well formatted exception. It is pointless to try to "shove bad data" through the business logic.
 
@@ -175,7 +175,7 @@ if (collection != null) {
 }
 ```
 
-The above (imho) looks like needlessly convoluted. This same logic could be refactored to read more cleanly and be more robust by simply testing the data and stopping progress (fail fast) as soon as the data isn't viable:
+The above (IMHO) looks needlessly convoluted. This same logic could be refactored to read more cleanly and be more robust by simply testing the data and stopping progress (fail fast) as soon as the data isn't viable:
 
 ```
 if (collection == null || collection.Data == null || !collection.Data.Any())
