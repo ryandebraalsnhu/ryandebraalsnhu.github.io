@@ -22,6 +22,21 @@ Personally, I have found live demonstrations to be the most effective method of 
 
 ![image](https://user-images.githubusercontent.com/83176990/129497305-be8187b0-1f5d-49de-9e96-ef03fff7e9d7.png)
 
+
+
+
+
+
+### Initial code review
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=jG0b8Cf76q8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
 ### Artifact One: Search Methodologies (Data Structures and Algorithms)
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/7-1.Final.Project.Reflection.Paper.pdf).
 ###### This project is available for [Download](https://ryandebraal.com/downloads/4-2.Milestone.Three.Enhancement.Two-Ryan.DeBraal.zip). 
