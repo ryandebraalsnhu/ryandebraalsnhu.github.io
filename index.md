@@ -54,6 +54,7 @@ The Linked List mode pulls the data from the CSV and stores it in a data structu
 •	A pointer to the head node must be constantly maintained. 
 
 Fig 1. Linked Lists
+
 ![image](https://user-images.githubusercontent.com/83176990/129496849-fb9c8cbd-d7d8-4264-918d-a178f2c83c43.png)
 
 The Hash Table mode pulls the data into a data structure which utilizes a vector to map a value to a “hash” and then later retrieve that value via its hash. This allows data to be retrieved very quickly. A hash value is often derived using this simple formula: hash = key % noOfBuckets
@@ -62,6 +63,7 @@ By being able to simply “lookup” a specific data point in a collection, the 
 To avoid collisions,  each “cell” of a hash table is actually a linked list of records so that data can be retrieved from a certain hash index in the same manner as the aforementioned linked list.
 
 Fig 2. Hash Table with Chaining
+
 ![image](https://user-images.githubusercontent.com/83176990/129496859-f40bf7e9-4b57-447e-8a68-fc99259b4847.png)
 
 The Binary Search Tree mode stores data in a more complex way and is therefore a little more unwieldy but search capabilities are significantly improved because of the way the data is stored and retrieved.
@@ -69,6 +71,7 @@ The Binary Search Tree mode stores data in a more complex way and is therefore a
 In a Binary Search Tree, each node contains a value from a well-ordered set. Every node in the left subtree contains a value which is smaller than the value in the current node, and every node in the right subtree contains a value which is larger than the value in the current node. This allows for simple boolean logic to quickly search for and retrieve data because the data is being navigated through rather than iterated across.
 
 Fig 3. Binary Search Tree
+
 ![image](https://user-images.githubusercontent.com/83176990/129496862-cf4162b4-b299-4f71-94c6-4d5dfe1579e5.png)
 
 ## Algorithms
