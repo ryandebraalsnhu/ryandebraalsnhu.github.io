@@ -38,8 +38,8 @@ Personally, I have found live demonstrations to be the most effective method of 
 
 The following projects have been adapted from their original submissions. A code review was conducted by myself early in this course. This code review can be viewed [here](https://www.youtube.com/watch?v=jG0b8Cf76q8).
 
-![image](https://user-images.githubusercontent.com/83176990/129497305-be8187b0-1f5d-49de-9e96-ef03fff7e9d7.png)
 ### Artifact One: Search Methodologies (Data Structures and Algorithms)
+![image](https://user-images.githubusercontent.com/83176990/129497305-be8187b0-1f5d-49de-9e96-ef03fff7e9d7.png)
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/7-1.Final.Project.Reflection.Paper.pdf).
 ###### This project is available for [Download](https://ryandebraal.com/downloads/4-2.Milestone.Three.Enhancement.Two-Ryan.DeBraal.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/Artifact.One.Data.Structures.and.Algorithms).
@@ -105,9 +105,8 @@ InterviewBit. “Linked Lists.” InterviewBit, [www.interviewbit.com/courses/pr
 Nilsson, Stefan. “Binary Search Trees Explained.” · YourBasic, Yourbasic.org, [www.yourbasic.org/algorithms/binary-search-tree/](www.yourbasic.org/algorithms/binary-search-tree/)
 ZyBooks, [https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1](https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1)
 
-![image](https://user-images.githubusercontent.com/83176990/129497826-14effb73-987a-482b-b5e7-5061ae2799e2.png)
-
 ### Artifact Two: Grazioso Salvare Austin Animal Shelter CRUD (Client\Server Development)
+![image](https://user-images.githubusercontent.com/83176990/129497826-14effb73-987a-482b-b5e7-5061ae2799e2.png)
 ###### This project is available for [Download](https://ryandebraal.com/downloads/Artifact.Two.Client.Server.Development.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/ClientServer_PortfolioItem).
 
@@ -124,15 +123,11 @@ This application was developed to leverage the pre-existing instance of MongoDB,
 
 These technologies were chosen for their relative ease of use and rapid stand-up time. Each component of this n-tier application was developed modularly so that it could be enhanced or swapped out easily in the future as need dictates. For example, if the client decided that they wanted the application to run on the Django web framework, they could simply reutilize the existing CRUD.py component and write a new user interface.
 
+### Artifact Three: MinimalYST - A minimalist Open GL tribute to Myst (Software Design and Engineering)
 ![image](https://user-images.githubusercontent.com/83176990/129498322-bd4ebb7a-2826-4ee0-9c11-9f8eac98120d.png)
-
-### Artifact Three: MinimalYST - A minimalist Open GL tribute to Myst
 ###### This project is available for [Download](https://ryandebraal.com/downloads/2-2.Milestone.One.Code.Review.mp4). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/computer-graphics-portfolio).
 ###### This project can be seen on [YouTube](https://www.youtube.com/watch?v=EV29wz9A6gs&t=4s).
-
-# Computer Graphics Portfolio
-https://github.com/ryandebraalsnhu/computer-graphics-portfolio
 
 ## How do I approach designing software?
 
