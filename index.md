@@ -17,15 +17,16 @@ I realized that the game industry had an awful turnover rate rife with “crunch
 
 ### Objective
 
-My objective while creating this ePortfolio was to curate the work that I have done in previous courses. In their original incarnations, I demonstrated aptitude now with some extra time and personal research I would like to improve upon these code bases to make them exceptional. I want to illustrate my ability to iterate upon an existing project to demonstrate that I can not only create useful software but to enhance preexisting software with an eye towards a meaningful future state. I would also like to take this time to consolidate my work into an organized body of work which I can then use to show my proficiencies to future potential employers.
+My objective while creating this ePortfolio was to curate the work that I have done in previous courses. In their original incarnations, I demonstrated aptitude now with  additional time and research I've improved upon these codebases. I am confident that I've illustrated my ability to iterate upon an existing project and demonstrate that I can not only create useful software but to enhance preexisting software with an eye towards a meaningful future state.
 
 This ePortfolio represents only a small vertical slice of my development experiences at SNHU.
 
 ---
 
-### What Makes a Productive Code Review?
-![image](https://user-images.githubusercontent.com/83176990/129496538-24f8168d-57e9-4912-bb0b-e97ca50cb780.png)
+### Code Review
+![image](https://user-images.githubusercontent.com/83176990/129500048-e2f1c314-3a3b-42d4-8211-9d02787ac507.png)
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/2-1.Journal.What.Makes.a.Productive.Code.Review-Ryan.DeBraal.pdf).
+###### This review can be seen on [YouTube](https://www.youtube.com/watch?v=jG0b8Cf76q) (~52 min).
 
 A code review is as important to a software developer as a second draft is to an author. Good software is not written in bursts of inspiration but rather honed and perfected over the course of many iterations. 
 
@@ -38,13 +39,6 @@ When someone reviews code they should be looking for common issues such as misse
 Code reviews should occur frequently throughout the development process. The Agile process is specifically designed to place code reviews at pivotal junctures throughout the SDLC. After a user story is completed and submitted as a pull request, a developer should be made responsible for reviewing the code. This way there is a system of checks in place to make sure that more than one person has signed off on a piece of code and that responsibility for the correct functioning of a piece of code is shared between multiple developers.
 
 Personally, I have found live demonstrations to be the most effective method of code review. It has been my experience that software developers can become very myopic when looking at the code rather than how the code functions from the perspective of the user. No code is bug free, and all code can always be improved in one way or another, but it is important that the developer understands that what they are building is ultimately to satisfy a customer’s needs.
-
----
-
-### Initial code review
-![image](https://user-images.githubusercontent.com/83176990/129500048-e2f1c314-3a3b-42d4-8211-9d02787ac507.png)
-
-The following projects have been adapted from their original submissions. A code review was conducted by myself early in this course. This code review can be viewed [here](https://www.youtube.com/watch?v=jG0b8Cf76q8) (~52 minutes).
 
 ---
 
@@ -130,7 +124,7 @@ PyMongo 3.12.0 documentation. PyMongo 3.12.0 Documentation - PyMongo 3.12.0 docu
 ![image](https://user-images.githubusercontent.com/83176990/129498322-bd4ebb7a-2826-4ee0-9c11-9f8eac98120d.png)
 ###### This project is available for [Download](https://ryandebraal.com/downloads/2-2.Milestone.One.Code.Review.mp4). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/computer-graphics-portfolio).
-###### This project can be seen on [YouTube](https://www.youtube.com/watch?v=EV29wz9A6gs&t=4s).
+###### This project can be seen on [YouTube](https://www.youtube.com/watch?v=EV29wz9A6gs&t=4s) (~3 min).
 
 ### Narrative
 This project written in C++ and utilizing several OpenGL libraries was created as my final project for the course: Computer Graphic and Visualization. It was meant to be a minimalist tribute to the classic point-and-click adventure game, Myst. This project is a good example of my ability to utilize third party libraries and combine them effectively into a cohesive experience.
