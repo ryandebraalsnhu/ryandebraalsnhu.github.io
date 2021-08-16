@@ -40,7 +40,7 @@ Personally, I have found live demonstrations to be the most effective method of 
 ### Initial code review
 ![image](https://user-images.githubusercontent.com/83176990/129500048-e2f1c314-3a3b-42d4-8211-9d02787ac507.png)
 
-The following projects have been adapted from their original submissions. A code review was conducted by myself early in this course. This code review can be viewed [here](https://www.youtube.com/watch?v=jG0b8Cf76q8).
+The following projects have been adapted from their original submissions. A code review was conducted by myself early in this course. This code review can be viewed [here](https://www.youtube.com/watch?v=jG0b8Cf76q8) (~52 minutes).
 
 ### Artifact One: Search Methodologies (Data Structures and Algorithms)
 ![image](https://user-images.githubusercontent.com/83176990/129497305-be8187b0-1f5d-49de-9e96-ef03fff7e9d7.png)
@@ -52,8 +52,6 @@ The following projects have been adapted from their original submissions. A code
 For this artifact I chose to consolidate the assignments of Module Three, Five and Six of the CS-260-Q3396 Data Structures and Algorithms course into a single project and allow the user to select which mode they would like to utilize in order to load, read, search and delete bids from a data structure. This was a valuable experience for me because as I revisited each methodology and directly compared them against each other I became much more familiar with the pros and cons of each data structure type.
 
 Enhancing this project was a pretty straight forward endeavor. Since I had developed this application quite some time ago I have natural become a more through developer, so revisiting my own "old code" caused me to immediately recognize some deficents that could be repaired.
-
-![image](https://user-images.githubusercontent.com/83176990/129501049-862f9093-eca3-4113-bb82-01d5b7df8f8d.png)
 
 ### Functionality
 The Linked List mode pulls the data from the CSV and stores it in a data structure with a dynamic size. However, this methodology has several drawbacks:
@@ -74,32 +72,13 @@ In a Binary Search Tree, each node contains a value from a well-ordered set. Eve
 
 ![image](https://user-images.githubusercontent.com/83176990/129496862-cf4162b4-b299-4f71-94c6-4d5dfe1579e5.png)
 
-## Algorithms
-
-### Search
-All three data structures (linked lists, hash tables and binary search trees) can be adapted to search for and retrieve values contained within them. The Linked List mode is straight forward but limited in its scope, this kind of data storage and retrieval is only really viable for a collection of perhaps a few hundred entries. The Hash Table mode has significant advantages over the linked list method; however, it also inherits the linked lists disadvantages because the chained hash tables still utilize linked lists, and therefore the space overhead of the “next” pointer can be significant. The Binary Search Tree mode does away with the limitations of the linked-list but it also far more complex to work with, it also requires a “well-ordered set”, meaning the performance of the search algorithm is directly related to how well the data being stored is organized.
-
-### Sort
-Sorting of a linked list requires a rather convoluted methodology, because a singly linked list can only be iterated across in one direction, this would require a separate object to be instantiated and maintained in order to capture values that are “above” or “below” the current pointer. (GeeksforGeeks, 2020)
-Fig 4. Pseudo Code for sorting a linked list
- 
-Sorting of a hash table isn’t necessary because as mentioned previously the data structure depends on “hash lookups” rather than iterating across the data.
-
-Sorting of a Binary Search Tree would be antithetical to its very nature. A binary search trees is dependent upon the data being organized by branching logic. 
-Hash/Chaining
-
-Hash Chaining is a clever workaround to the limitations of linked lists and the complications of binary search trees. While “under the hood” it seems somewhat clunky in its implementation, ultimately the ability to lookup data values by hash is a worthwhile endeavor that can make an application run faster and easier to develop.
-“Search time for hash table lookups are reduced significantly, searching (or inserting / removing) an item may require only O(1), in contrast to O(N) for searching a list or to O(log N) for binary search.” (zyBooks)
-
-### Effectiveness
-Main.cpp in the FinalProject solution was my favorite program to write, because it allowed me to “take off the training wheels” and code something that wasn’t prescribed. I liked creating the “modes” for each data structure type and organizing the different functionalities into discrete methods. I wish I had had more time to make the code mode modular. I ended up sticking all the classes I created into a single .cpp file which made it quite long and harder and harder to maintain as time went on. I didn’t take the time to learn about the relationship between .cpp files and .h files, so “importing” classes was out of the question. I ended up using regions to better organize code, but if I were to continue development on this project I would move the LinkedList, HashTable, and BinarySearchTree classes into individual files.
-
 I think the code is highly reusable, all the data structure implementations can be adapted to another project simply be swapping our the Bid struct for another object that needs to be maintained in a collection.
 
-I am pleased with the annotations I placed in the code base, I try to code based on a motto I heard several years ago: “verbosity over brevity”, To me this means it does not serve anyone better to write code that isn’t cleanly organized and well documented. I think software developers are often tempted to try to condense their code into the smallest amount of space as possible, especially with the advent of LINQ. Coding something that works is the most important, but coding something that can be easily interpreted by another developer is a close second.
+I am pleased with the annotations I placed in the code base, I try to code based on a motto I heard several years ago: “verbosity over brevity”. To me this means it does not serve anyone better to write code that isn’t cleanly organized and well documented. I think software developers are often tempted to try to condense their code into the smallest amount of space as possible, especially with the advent of LINQ. Coding something that works is the most important, but coding something that can be easily interpreted by another developer is a close second.
 
 ### Conclusion
 When building something, either in code or in the real world, it is important to use the right tool for the job. Knowing which kind of data structure to use will save development time and result in cleaner, faster code. In this case, I think the eBid Search application that we created was best organized using the Binary Search Tree data structure because each entry has a gaurenteed BidID, I would modify the BidID to be an integer value rather than a string value because that would allow the BST to more quickly determine which branch (left or right) to go down, I imagine the string manipulation of the unique identifier would eventually have a significant impact on search speed.
+
 I was routinely surprised by the amount of effort put into creating things that I routinely take for granted in my day-to-day work developing applications in C#. Dictionarys, LINQ, NO Pointers. These are just a handful of examples of the kinds of tools that I routinely us and never give a second thought.
 
 ### Citations
@@ -118,7 +97,7 @@ ZyBooks, [https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1]
 ## Narrative
 For this artifact I chose to enhance the final project for CS-499-X6397 Computer Science Capstone 21EW6, an application which is used to create, read, update, and delete (CRUD) records from a MongoDB database.
 
-Enhancing this project was quite a bit more difficult than Artifact One. For starters, the Virtual Machine (VM) that I had used to develop this application had already been wiped of my credentials! In order to enhance this application I had to learn quite a bit about cross-platform development.  
+Enhancing this project was quite a bit more difficult than Artifact One. For starters, the Virtual Machine (VM) that I had used to develop this application had already been wiped of my credentials! In order to enhance this application I had to first setup a local MongoDB instance on my home machine, then hunt down the original [JSON file](https://catalog.data.gov/de/dataset/austin-animal-center-intakes/resource/3762cdf8-ccdb-4de5-83a1-bb7d98a00f12) needed to import the data into the instance. Finnally, I had to setup Jupyter Notebook in Windows, which first required installation of Anaconda, a package manager similar to Node Package Manager (npm), which I use quite often in my work life.
 
 ## Functionality
 The application in its current state can be used to navigate the AAC database, filter by various conditions, visualize the GPS location where the animal was found, and generate a breakdown of outcomes per filtered section. In the future this application can be expanded to create a fully realized CRUD application capable of maintaining the data retained and administrated by the Austin Animal Control Center.
@@ -137,7 +116,10 @@ These technologies were chosen for their relative ease of use and rapid stand-up
 # Narrative
 
 This project written in C++ and utilizing several OpenGL libraries was created as my final project for the course: Computer Graphic and Visualization. It was meant to be a minimalist tribute to the classic point-and-click adventure game, Myst.
-This was a particularly challenging project to complete as I was forced to start over in the seventh week because the shader I had used only supported a single light source, whereas the rubric required a scene which supports multiple light sources. I ended up creating a full 3D area complete with day/night cycle. 
+
+This was a particularly challenging project to complete initially as it was a culmination of almost every lesson I've learned at SNHU including design and analysis, planning, time management, object oriented programming (OOP), geometry, physics, data structures, and perhaps most importantly: the ability to learn and adapt.
+
+## Functionality
 
 ![image](https://user-images.githubusercontent.com/83176990/129501028-5120b35b-443c-43f8-8173-b224e9940101.png)
 
