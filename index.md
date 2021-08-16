@@ -15,7 +15,11 @@ I initially enrolled in the Game Development program because that was the passio
 
 I realized that the game industry had an awful turnover rate rife with “crunch time” development sprints. I decided to switch to a more classical “Computer Science” degree course instead. It has been a boon when it comes helping to reenforce the coding practices I use in my day-to-day life and has given me confidence to express myself with academic knowledge backing my statements.
 
-This ePortfolio represents a small slice of my experiences at SNHU.
+### Objective
+
+My objective while creating this ePortfolio was to curate the work that I have done in previous courses. In their original incarnations, I demonstrated aptitude now with some extra time and personal research I would like to improve upon these code bases to make them exceptional. I want to illustrate my ability to iterate upon an existing project to demonstrate that I can not only create useful software but to enhance preexisting software with an eye towards a meaningful future state. I would also like to take this time to consolidate my work into an organized body of work which I can then use to show my proficiencies to future potential employers.
+
+This ePortfolio represents only a small vertical slice of my development experiences at SNHU.
 
 ### What Makes a Productive Code Review?
 ![image](https://user-images.githubusercontent.com/83176990/129496538-24f8168d-57e9-4912-bb0b-e97ca50cb780.png)
@@ -44,10 +48,14 @@ The following projects have been adapted from their original submissions. A code
 ###### This project is available for [Download](https://ryandebraal.com/downloads/4-2.Milestone.Three.Enhancement.Two-Ryan.DeBraal.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/Artifact.One.Data.Structures.and.Algorithms).
 
-## Description
+## Narrative
 For this artifact I chose to consolidate the assignments of Module Three, Five and Six of the CS-260-Q3396 Data Structures and Algorithms course into a single project and allow the user to select which mode they would like to utilize in order to load, read, search and delete bids from a data structure. This was a valuable experience for me because as I revisited each methodology and directly compared them against each other I became much more familiar with the pros and cons of each data structure type.
 
-### Data Structures
+Enhancing this project was a pretty straight forward endeavor. Since I had developed this application quite some time ago I have natural become a more through developer, so revisiting my own "old code" caused me to immediately recognize some deficents that could be repaired.
+
+![image](https://user-images.githubusercontent.com/83176990/129501049-862f9093-eca3-4113-bb82-01d5b7df8f8d.png)
+
+### Functionality
 The Linked List mode pulls the data from the CSV and stores it in a data structure with a dynamic size. However, this methodology has several drawbacks:
 - They can only be iterated across in one direction, from the beginning or “head” to the end or “tail”, this means there is no “random access” allowed.
 - A pointer to the head node must be constantly maintained. 
@@ -56,8 +64,7 @@ The Linked List mode pulls the data from the CSV and stores it in a data structu
 
 The Hash Table mode pulls the data into a data structure which utilizes a vector to map a value to a “hash” and then later retrieve that value via its hash. This allows data to be retrieved very quickly. A hash value is often derived using this simple formula: hash = key % noOfBuckets
 
-By being able to simply “lookup” a specific data point in a collection, the ability to retrieve information becomes straightforward. This is a significant improvement over having to iterate across a collection until a match is found.
-To avoid collisions,  each “cell” of a hash table is actually a linked list of records so that data can be retrieved from a certain hash index in the same manner as the aforementioned linked list.
+By being able to simply “lookup” a specific data point in a collection, the ability to retrieve information becomes straightforward. This is a significant improvement over having to iterate across a collection until a match is found. To avoid collisions, each “cell” of a hash table is actually a linked list of records so that data can be retrieved from a certain hash index in the same manner as the aforementioned linked list.
 
 ![image](https://user-images.githubusercontent.com/83176990/129496859-f40bf7e9-4b57-447e-8a68-fc99259b4847.png)
 
@@ -108,8 +115,10 @@ ZyBooks, [https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1]
 ###### This project is available for [Download](https://ryandebraal.com/downloads/Artifact.Two.Client.Server.Development.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/ClientServer_PortfolioItem).
 
-## Description
+## Narrative
 For this artifact I chose to enhance the final project for CS-499-X6397 Computer Science Capstone 21EW6, an application which is used to create, read, update, and delete (CRUD) records from a MongoDB database.
+
+Enhancing this project was quite a bit more difficult than Artifact One. For starters, the Virtual Machine (VM) that I had used to develop this application had already been wiped of my credentials! In order to enhance this application I had to learn quite a bit about cross-platform development.  
 
 ## Functionality
 The application in its current state can be used to navigate the AAC database, filter by various conditions, visualize the GPS location where the animal was found, and generate a breakdown of outcomes per filtered section. In the future this application can be expanded to create a fully realized CRUD application capable of maintaining the data retained and administrated by the Austin Animal Control Center.
@@ -125,7 +134,12 @@ These technologies were chosen for their relative ease of use and rapid stand-up
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/computer-graphics-portfolio).
 ###### This project can be seen on [YouTube](https://www.youtube.com/watch?v=EV29wz9A6gs&t=4s).
 
+# Narrative
 
+This project written in C++ and utilizing several OpenGL libraries was created as my final project for the course: Computer Graphic and Visualization. It was meant to be a minimalist tribute to the classic point-and-click adventure game, Myst.
+This was a particularly challenging project to complete as I was forced to start over in the seventh week because the shader I had used only supported a single light source, whereas the rubric required a scene which supports multiple light sources. I ended up creating a full 3D area complete with day/night cycle. 
+
+![image](https://user-images.githubusercontent.com/83176990/129501028-5120b35b-443c-43f8-8173-b224e9940101.png)
 
 
 
