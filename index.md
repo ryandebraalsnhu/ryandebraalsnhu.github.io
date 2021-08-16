@@ -25,9 +25,9 @@ This ePortfolio represents only a small vertical slice of my development experie
 
 ## Code Review
 ![image](https://user-images.githubusercontent.com/83176990/129500048-e2f1c314-3a3b-42d4-8211-9d02787ac507.png)
-###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/2-1.Journal.What.Makes.a.Productive.Code.Review-Ryan.DeBraal.pdf).
 
 ### Links
+###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/2-1.Journal.What.Makes.a.Productive.Code.Review-Ryan.DeBraal.pdf).
 ###### This review can be seen on [YouTube](https://www.youtube.com/watch?v=jG0b8Cf76q) (~52 min).
 
 A code review is as important to a software developer as a second draft is to an author. Good software is not written in bursts of inspiration but rather honed and perfected over the course of many iterations. 
