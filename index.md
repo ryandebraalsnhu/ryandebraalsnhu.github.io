@@ -11,15 +11,66 @@ SNHU has taught me several valuable lessons. I think the most important of which
 
 However, when I started classes at SNHU, my slapdash attempts at writing papers at the last minute were met with underwhelming grades. I then discovered that words without academic rigor behind them have little value. Both in school and in the professional world. Being “learned” in a subject is far more prized than simply having a “good gut feeling”.
 
-I initially enrolled in the Game Development program because that was the passion which had initially drawn me into software development in my early teens. However, as I was attending classes a reoccurring headline seemed to keep cropping up in my new feed: “Hundreds of Develops laid off following record-breaking release of AAA title”. 
-
-I realized that the game industry had an awful turnover rate rife with “crunch time” development sprints. I decided to switch to a more classical “Computer Science” degree course instead. It has been a boon when it comes helping to reenforce the coding practices I use in my day-to-day life and has given me confidence to express myself with academic knowledge backing my statements.
-
 ### Objective
 
-My objective while creating this ePortfolio was to curate the work that I have done in previous courses. In their original incarnations, I demonstrated aptitude now with  additional time and research I've improved upon these codebases. I am confident that I've illustrated my ability to iterate upon an existing project and demonstrate that I can not only create useful software but to enhance preexisting software with an eye towards a meaningful future state.
+My objective while creating this ePortfolio was to curate the work that I have done in previous courses. In their original incarnations, I demonstrated basic aptitude but now with  additional time and research I've improved upon these codebases and hopefully achieved excellence. I am confident that I've illustrated my ability to iterate upon an existing project and demonstrate that I can not only create useful software but to enhance preexisting software with an eye towards a meaningful future state.
 
 This ePortfolio represents only a small vertical slice of my development experiences at SNHU.
+
+### Self Assessment
+
+Whenever possible I try to employ a "fail fast" philosophy, which is sometimes known as "defensive programming".
+
+Whenever I write code, I immedietly try to determine if the data is valid. If it isn't, I stop working with it immediately and return a well formatted exception. It is pointless to try to "shove bad data" through the business logic.
+
+I've often seen code online that looks like this:
+
+```
+if (collection != null) {
+    if (collection.Data != null || collection.Data.length < 1) {
+        for (var d in collection.Data) {
+	        if (d != null) {	        
+ 	            if (d.ID != null && d.ID > 0) {
+		            //Business logic goes here...
+                } else {
+					//Invalid ID...
+				}
+	        } else {
+				//Data in loop is null...
+			}
+        }		
+	} else {
+		//Data in collection is null...
+	}	
+} else {
+    //Collection is null...
+}
+```
+
+This same logic could be refactored to read more cleanly and be more robust by simply testing the data and stopping progress (fail fast) as soon as the data isn't viable:
+
+```
+if (collection == null || collection.Data == null || !collection.Data.Any())
+    return Error("An invalid collection has been specified.");
+
+for (var d in collection.Data) {
+    if (d == null || d.ID == null || d.ID < 1)
+        continue; 
+
+    //Business logic goes here...  	
+}
+```
+
+The first step in developing code is to make it do what the customer wants, the second step should be to retain the quality of the code but still make sure that it does what the customer wants. I have seen numerous occasions when code refactoring has resulted in much cleaner code that no longer performs the basic operations that the “spaghetti code” mysteriously was able to achieve. 
+
+Coding something that works is the most important, but coding something that can be easily interpreted by another developer is a close second.
+
+In the (probably misattributed) words of Albert Einstein:
+
+> If you can't explain it simply, you don't understand it well enough. (Unknown)
+
+### Citations
+Contieri, M. (2020, May 26). Fail fast PHILOSOPHY, Explained. Retrieved April 25, 2021, from [https://hackernoon.com/fail-fast-philosophy-explained-si963vk9](https://hackernoon.com/fail-fast-philosophy-explained-si963vk9)
 
 ---
 
@@ -135,65 +186,8 @@ This was a particularly challenging project to complete initially as it was a cu
 ### Functionality
 The application in its current state is a simple 3D scene with the ability to walk around using the keyboard and look around using the mouse. There are several "algorithmic systems" implemented including a day/night cycle, and the flickering glow of a candle.
 
-Overall, this was my favorite project to work on because it required a very high degree of understanding but also allowed me to express myself creatively. 
+Overall, this was my favorite project to work on because it required a very high degree of understanding of some fairly complex concepts but also allowed me to express myself creativity.
 
 ### Citations
 
 Allen, A. (2016, August 15). What is dependency hell? Retrieved April 25, 2021, from [https://searchitoperations.techtarget.com/definition/dependency-hell](https://searchitoperations.techtarget.com/definition/dependency-hell)
-
-Contieri, M. (2020, May 26). Fail fast PHILOSOPHY, Explained. Retrieved April 25, 2021, from [https://hackernoon.com/fail-fast-philosophy-explained-si963vk9](https://hackernoon.com/fail-fast-philosophy-explained-si963vk9)
-
----
-
-## Self Assessment
-
-Whenever possible I try to employ a "fail fast" philosophy, which is sometimes known as "defensive programming".
-
-Whenever I write code, I immedietly try to determine if the data is valid. If it isn't, I stop working with it immediately and return a well formatted exception. It is pointless to try to "shove bad data" through the business logic.
-
-I've often seen code online that looks like this:
-
-```
-if (collection != null) {
-    if (collection.Data != null || collection.Data.length < 1) {
-        for (var d in collection.Data) {
-	        if (d != null) {	        
- 	            if (d.ID != null && d.ID > 0) {
-		            //Business logic goes here...
-                } else {
-					//Invalid ID...
-				}
-	        } else {
-				//Data in loop is null...
-			}
-        }		
-	} else {
-		//Data in collection is null...
-	}	
-} else {
-    //Collection is null...
-}
-```
-
-The above (IMHO) looks needlessly convoluted. This same logic could be refactored to read more cleanly and be more robust by simply testing the data and stopping progress (fail fast) as soon as the data isn't viable:
-
-```
-if (collection == null || collection.Data == null || !collection.Data.Any())
-    return Error("An invalid collection has been specified.");
-
-for (var d in collection.Data) {
-    if (d == null || d.ID == null || d.ID < 1)
-        continue; 
-
-    //Business logic goes here...  	
-}
-```
-
-In my opinion, the first step in developing code is to make it do what the customer wants, the second step should be to retain the quality of the code but still make sure that it does what the customer wants. I have seen numerous occasions when code refactoring has resulted in much cleaner code that no longer performs the basic operations that the “spaghetti code” mysteriously was able to achieve. 
-
-Coding something that works is the most important, but coding something that can be easily interpreted by another developer is a close second.
-
-In the (probably misattributed) words of Albert Einstein:
-
-> If you can't explain it simply, you don't understand it well enough. (Unknown)
-
