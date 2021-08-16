@@ -10,7 +10,7 @@ CS-499-X6397 Computer Science Capstone 21EW6
 
 ### What Makes a Productive Code Review?
 #### Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science 
-###### This article is also available as a [PDF](https://pages.github.com/).
+###### [Download](https://pages.github.com/).
 
 A code review is as important to a software developer as a second draft is to an author. Good software is not written in bursts of inspiration but rather honed and perfected over the course of many iterations. 
 
