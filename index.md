@@ -78,11 +78,7 @@ In a Binary Search Tree, each node contains a value from a well-ordered set. Eve
 
 I think the code is highly reusable, all the data structure implementations can be adapted to another project simply be swapping our the Bid struct for another object that needs to be maintained in a collection.
 
-I am pleased with the annotations I placed in the code base, I try to code based on a motto I heard several years ago: “verbosity over brevity”. To me this means it does not serve anyone better to write code that isn’t cleanly organized and well documented. I think software developers are often tempted to try to condense their code into the smallest amount of space as possible, especially with the advent of LINQ. Coding something that works is the most important, but coding something that can be easily interpreted by another developer is a close second.
-
-When building something, either in code or in the real world, it is important to use the right tool for the job. Knowing which kind of data structure to use will save development time and result in cleaner, faster code. In this case, I think the eBid Search application that we created was best organized using the Binary Search Tree data structure because each entry has a gaurenteed BidID, I would modify the BidID to be an integer value rather than a string value because that would allow the BST to more quickly determine which branch (left or right) to go down, I imagine the string manipulation of the unique identifier would eventually have a significant impact on search speed.
-
-I was routinely surprised by the amount of effort put into creating things that I routinely take for granted in my day-to-day work developing applications in C#. Dictionarys, LINQ, NO Pointers. These are just a handful of examples of the kinds of tools that I routinely us and never give a second thought.
+I am pleased with the annotations I placed in the code base, I try to code based on a motto I heard several years ago: “verbosity over brevity”. To me this means it does not serve anyone better to write code that isn’t cleanly organized and well documented. I think software developers are often tempted to try to condense their code into the smallest amount of space as possible, especially with the advent of LINQ. 
 
 ### Citations
 Insertion Sort for Singly Linked List. GeeksforGeeks, 3 Feb. 2020, [www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/](www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
@@ -208,7 +204,9 @@ for (var d in collection.Data) {
 }
 ```
 
-In my opinion, the first step in developing code is to make it do what the customer wants, the second step should be to retain the quality of the code but still make sure that it does what the customer wants. I have seen numerous occasions when code refactoring has resulted in much cleaner code that no longer performs the basic operations that the “spaghetti code” mysteriously was able to achieve.
+In my opinion, the first step in developing code is to make it do what the customer wants, the second step should be to retain the quality of the code but still make sure that it does what the customer wants. I have seen numerous occasions when code refactoring has resulted in much cleaner code that no longer performs the basic operations that the “spaghetti code” mysteriously was able to achieve. 
+
+Coding something that works is the most important, but coding something that can be easily interpreted by another developer is a close second.
 
 In the words of Albert Einstein:
 
