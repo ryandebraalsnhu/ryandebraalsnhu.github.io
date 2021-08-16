@@ -3,7 +3,7 @@
 
 My name is Ryan DeBraal, I am originally from rural Wisconsin but now live with my wife in Chicago. I work as a Software Developer in the Information Security sector. I have been attending SNHU for approximately three years. I returned to academia after a ten-year hiatus because I wanted to complete my degree. 
 
-When I was twenty-four years old I was hired for a six-month contract at Kimberly Clark, the corporation best known for Kleenex, to help develop a Regulatory Affairs document management system. This six-month contract became a three-year contract and during that time school fell by the wayside.
+When I was twenty-four years old I was hired for a six-month contract at a local corporation best known for manufacturing toilet paper, to help develop a Regulatory Affairs document management system. This six-month contract became a three-year contract and during that time school fell by the wayside.
 
 Fast forward to 2018, I have been hired as a full-time employee at a Fortune 500 company with nothing on my resume but a High School education. My wife, having witnessed my self-consciousness about by level of formal education (or lack thereof), suggested I return to school and finish my degree. To my astonishment and delight a great deal of my credits from a decade ago transferred over.
 
