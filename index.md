@@ -27,8 +27,7 @@ Personally, I have found live demonstrations to be the most effective method of 
 
 ![image](https://user-images.githubusercontent.com/83176990/129497305-be8187b0-1f5d-49de-9e96-ef03fff7e9d7.png)
 
-### Artifact One: Data Structures and Algorithms
-#### Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices 
+### Artifact One: Search Methodologies (Data Structures and Algorithms)
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/7-1.Final.Project.Reflection.Paper.pdf).
 ###### This project is available for [Download](https://ryandebraal.com/downloads/4-2.Milestone.Three.Enhancement.Two-Ryan.DeBraal.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/Artifact.One.Data.Structures.and.Algorithms).
@@ -96,7 +95,7 @@ ZyBooks, [https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1]
 
 ![image](https://user-images.githubusercontent.com/83176990/129497826-14effb73-987a-482b-b5e7-5061ae2799e2.png)
 
-### Artifact Two: Client\Server Development
+### Artifact Two: Grazioso Salvare Austin Animal Shelter CRUD (Client\Server Development)
 ###### This project is available for [Download](https://ryandebraal.com/downloads/Artifact.Two.Client.Server.Development.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/ClientServer_PortfolioItem).
 
