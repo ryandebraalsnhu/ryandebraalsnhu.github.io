@@ -1,7 +1,19 @@
 ### Introduction
 
-...
+Hello!
 
+My name is Ryan DeBraal. I live with my wife in Chicago. I work as a Software Developer focused on the Information Security sector. I have been attending SNHU for approximately three years. I returned to academia after a ten-year hiatus because I wanted to complete my degree. 
+
+When I was twenty-four years old I was hired for a six-month contract at Kimberly Clark, the corporation best known for Kleenex, to help develop a Regulatory Affairs document management system. This six-month contract became a three-year contract and during that time school fell by the wayside.
+
+Fast forward to 2018, I have been hired as a full-time employee at a Fortune 500 company with nothing on my resume but a High School education. My girlfriend (now wife), seeing my self-consciousness about by level of formal education (or lack thereof), suggested I return to school and finish my degree. To my astonishment and delight a great deal of my credits from a decade ago transferred over.
+
+SNHU has taught me several valuable lessons. I think the most important of which is that they have refreshed my memory on how to “learn” in an academic environment. I never took school very seriously; I was always smart enough to be able to just glance at material and make assumptions about its content and pull off a passing grade. 
+However, when I started classes at SNHU, my slapdash attempts at writing papers at the last minute were met with underwhelming grades. I then discovered that words without academic rigor behind them have little value. Both in school and in the professional world. Being “learned” in a subject is far more prized than simply having a “good gut feeling”.
+
+I initially enrolled in the Game Development program because that was the passion which had initially drawn me into software development in my early teens. However, as I was attending classes a reoccurring headline seemed to keep cropping up in my timeline: “Hundreds of Develops laid off following record-breaking release of AAA title”. 
+
+I realized that the game industry had an awful turnover rate rife with “crunch time” development sprints. I decided to switch to a more classical “Computer Science” degree course instead. It has been a boon when it comes helping to reenforce the coding practices I use in my day-to-day life and has given me confidence to express myself with academic knowledge backing my statements.
 
 ### What Makes a Productive Code Review?
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/2-1.Journal.What.Makes.a.Productive.Code.Review-Ryan.DeBraal.pdf).
