@@ -1,4 +1,4 @@
-### Introduction
+## Introduction
 ![image](https://user-images.githubusercontent.com/83176990/129499810-55183e75-5e0c-4348-9d6d-92849437c911.png)
 
 My name is Ryan DeBraal, I am originally from rural Wisconsin but now live with my wife in Chicago. I work as a Software Developer in the Information Security sector. I have been attending SNHU for approximately three years. I returned to academia after a ten-year hiatus because I wanted to complete my degree. 
@@ -23,9 +23,11 @@ This ePortfolio represents only a small vertical slice of my development experie
 
 ---
 
-### Code Review
+## Code Review
 ![image](https://user-images.githubusercontent.com/83176990/129500048-e2f1c314-3a3b-42d4-8211-9d02787ac507.png)
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/2-1.Journal.What.Makes.a.Productive.Code.Review-Ryan.DeBraal.pdf).
+
+### Links
 ###### This review can be seen on [YouTube](https://www.youtube.com/watch?v=jG0b8Cf76q) (~52 min).
 
 A code review is as important to a software developer as a second draft is to an author. Good software is not written in bursts of inspiration but rather honed and perfected over the course of many iterations. 
@@ -42,8 +44,10 @@ Personally, I have found live demonstrations to be the most effective method of 
 
 ---
 
-### Artifact One: Search Methodologies (Data Structures and Algorithms)
+## Artifact One: Search Methodologies (Data Structures and Algorithms)
 ![image](https://user-images.githubusercontent.com/83176990/129497305-be8187b0-1f5d-49de-9e96-ef03fff7e9d7.png)
+
+### Links
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/7-1.Final.Project.Reflection.Paper.pdf).
 ###### This project is available for [Download](https://ryandebraal.com/downloads/4-2.Milestone.Three.Enhancement.Two-Ryan.DeBraal.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/Artifact.One.Data.Structures.and.Algorithms).
@@ -92,6 +96,8 @@ ZyBooks, [https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1]
 
 ## Artifact Two: Grazioso Salvare Austin Animal Shelter CRUD (Client\Server Development)
 ![image](https://user-images.githubusercontent.com/83176990/129497826-14effb73-987a-482b-b5e7-5061ae2799e2.png)
+
+### Links
 ###### This project is available for [Download](https://ryandebraal.com/downloads/Artifact.Two.Client.Server.Development.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/ClientServer_PortfolioItem).
 
@@ -120,8 +126,10 @@ PyMongo 3.12.0 documentation. PyMongo 3.12.0 Documentation - PyMongo 3.12.0 docu
 
 ---
 
-### Artifact Three: MinimalYST - A minimalist Open GL tribute to Myst (Software Design and Engineering)
+## Artifact Three: MinimalYST - A minimalist Open GL tribute to Myst (Software Design and Engineering)
 ![image](https://user-images.githubusercontent.com/83176990/129498322-bd4ebb7a-2826-4ee0-9c11-9f8eac98120d.png)
+
+### Links
 ###### This project is available for [Download](https://ryandebraal.com/downloads/2-2.Milestone.One.Code.Review.mp4). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/computer-graphics-portfolio).
 ###### This project can be seen on [YouTube](https://www.youtube.com/watch?v=EV29wz9A6gs&t=4s) (~3 min).
@@ -148,7 +156,7 @@ I've been using "computer science" since I was 5 years old. It is an essential p
 
 I have a new found respect for C++ developers. I wouldn't pursue it as a career, but I definetly have a better understanding of the need to be iterative when creating things. Even C# is essentially just a highly wrappered version of underlying C++ functionalities.
 
-## Citations
+### Citations
 
 Allen, A. (2016, August 15). What is dependency hell? Retrieved April 25, 2021, from [https://searchitoperations.techtarget.com/definition/dependency-hell](https://searchitoperations.techtarget.com/definition/dependency-hell)
 
