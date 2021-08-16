@@ -33,13 +33,10 @@ Code reviews should occur frequently throughout the development process. The Agi
 
 Personally, I have found live demonstrations to be the most effective method of code review. It has been my experience that software developers can become very myopic when looking at the code rather than how the code functions from the perspective of the user. No code is bug free, and all code can always be improved in one way or another, but it is important that the developer understands that what they are building is ultimately to satisfy a customer’s needs. So, the first step in developing code is to make it do what the customer wants, the second step should be to retain the quality of the code but still make sure that it does what the customer wants. I have seen numerous occasions when code refactoring has resulted in much cleaner code that no longer performs the basic operations that the “spaghetti code” mysteriously was able to achieve.
 
-![image](https://user-images.githubusercontent.com/83176990/129497305-be8187b0-1f5d-49de-9e96-ef03fff7e9d7.png)
-
-
 ### Initial code review
 The following projects have been adapted from their original submissions. A code review was conducted by myself early in this course. This code review can be viewed [here](https://www.youtube.com/watch?v=jG0b8Cf76q8).
 
-
+![image](https://user-images.githubusercontent.com/83176990/129497305-be8187b0-1f5d-49de-9e96-ef03fff7e9d7.png)
 ### Artifact One: Search Methodologies (Data Structures and Algorithms)
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/7-1.Final.Project.Reflection.Paper.pdf).
 ###### This project is available for [Download](https://ryandebraal.com/downloads/4-2.Milestone.Three.Enhancement.Two-Ryan.DeBraal.zip). 
