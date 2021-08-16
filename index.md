@@ -54,8 +54,8 @@ The following projects have been adapted from their original submissions. A code
 ###### This project is available for [Download](https://ryandebraal.com/downloads/4-2.Milestone.Three.Enhancement.Two-Ryan.DeBraal.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/Artifact.One.Data.Structures.and.Algorithms).
 
-## Narrative
-For this artifact I chose to consolidate the assignments of Module Three, Five and Six of the CS-260-Q3396 Data Structures and Algorithms course into a single project and allow the user to select which mode they would like to utilize in order to load, read, search and delete bids from a data structure. This was a valuable experience for me because as I revisited each methodology and directly compared them against each other I became much more familiar with the pros and cons of each data structure type.
+### Narrative
+For this artifact I chose to consolidate the assignments of Module Three, Five and Six of the CS-260-Q3396 Data Structures and Algorithms course into a single project and allow the user to select which mode they would like to utilize in order to load, read, search and delete bids from a data structure. This was a valuable experience for me because as I revisited each methodology and directly compared them against each other I became much more familiar with the pros and cons of each data structure type. This project is a good example of my ability organize data into collections and use search algorithms (such as Binary Search Tree) to navigate the data in an efficient manner.
 
 Enhancing this project was a pretty straight forward endeavor. Since I had developed this application quite some time ago I have natural become a more through developer, so revisiting my own "old code" caused me to immediately recognize some deficents that could be repaired.
 
@@ -82,7 +82,6 @@ I think the code is highly reusable, all the data structure implementations can 
 
 I am pleased with the annotations I placed in the code base, I try to code based on a motto I heard several years ago: “verbosity over brevity”. To me this means it does not serve anyone better to write code that isn’t cleanly organized and well documented. I think software developers are often tempted to try to condense their code into the smallest amount of space as possible, especially with the advent of LINQ. Coding something that works is the most important, but coding something that can be easily interpreted by another developer is a close second.
 
-### Conclusion
 When building something, either in code or in the real world, it is important to use the right tool for the job. Knowing which kind of data structure to use will save development time and result in cleaner, faster code. In this case, I think the eBid Search application that we created was best organized using the Binary Search Tree data structure because each entry has a gaurenteed BidID, I would modify the BidID to be an integer value rather than a string value because that would allow the BST to more quickly determine which branch (left or right) to go down, I imagine the string manipulation of the unique identifier would eventually have a significant impact on search speed.
 
 I was routinely surprised by the amount of effort put into creating things that I routinely take for granted in my day-to-day work developing applications in C#. Dictionarys, LINQ, NO Pointers. These are just a handful of examples of the kinds of tools that I routinely us and never give a second thought.
@@ -97,22 +96,33 @@ ZyBooks, [https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1]
 
 ---
 
-### Artifact Two: Grazioso Salvare Austin Animal Shelter CRUD (Client\Server Development)
+## Artifact Two: Grazioso Salvare Austin Animal Shelter CRUD (Client\Server Development)
 ![image](https://user-images.githubusercontent.com/83176990/129497826-14effb73-987a-482b-b5e7-5061ae2799e2.png)
 ###### This project is available for [Download](https://ryandebraal.com/downloads/Artifact.Two.Client.Server.Development.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/ClientServer_PortfolioItem).
 
-## Narrative
-For this artifact I chose to enhance the final project for CS-499-X6397 Computer Science Capstone 21EW6, an application which is used to create, read, update, and delete (CRUD) records from a MongoDB database.
+### Narrative
+For this artifact I chose to enhance the final project for CS-499-X6397 Computer Science Capstone 21EW6, an application which is used to create, read, update, and delete (CRUD) records from a MongoDB database. This project is a good example of my ability to manipulate data in a database through a GUI.
 
 Enhancing this project was quite a bit more difficult than Artifact One. For starters, the Virtual Machine (VM) that I had used to develop this application had already been wiped of my credentials! In order to enhance this application I had to first setup a local MongoDB instance on my home machine, then hunt down the original [JSON file](https://catalog.data.gov/de/dataset/austin-animal-center-intakes/resource/3762cdf8-ccdb-4de5-83a1-bb7d98a00f12) needed to import the data into the instance. Finnally, I had to setup Jupyter Notebook in Windows, which first required installation of Anaconda, a package manager similar to Node Package Manager (npm), which I use quite often in my work life.
 
-## Functionality
+### Functionality
 The application in its current state can be used to navigate the AAC database, filter by various conditions, visualize the GPS location where the animal was found, and generate a breakdown of outcomes per filtered section. In the future this application can be expanded to create a fully realized CRUD application capable of maintaining the data retained and administrated by the Austin Animal Control Center. 
 
 This application was developed to leverage the pre-existing instance of MongoDB, which is a document-based, “No-SQL” database. The data access layer (DAL), or Controller in MVC parlance, utilizes [PyMongo](https://pymongo.readthedocs.io/en/stable/) to create, read, update, and delete (CRUD) data. The user interface, or View in MVC parlance, is powered by [Dash](https://dash.plotly.com/introduction), a framework for building web analytic applications.
 
-These technologies were chosen for their relative ease of use and rapid stand-up time. Each component of this n-tier application was developed modularly so that it could be enhanced or swapped out easily in the future as need dictates. For example, if the client decided that they wanted the application to run on the Django web framework, they could simply reutilize the existing CRUD.py component and write a new user interface.
+These technologies were chosen for their relative ease of use and rapid stand-up time. Each component of this n-tier application was developed modularly so that it could be enhanced or swapped out easily in the future as need dictates. 
+
+For example, if the client decided that they wanted the application to run on the Django web framework, they could simply reutilize the existing CRUD.py component and write a new user interface.
+
+### Citations
+
+Austin animal Center Intakes - json file - ckan. Austin Animal Center Intakes - JSON File - CKAN. (n.d.). [https://catalog.data.gov/de/dataset/austin-animal-center-intakes/resource/3762cdf8-ccdb-4de5-83a1-bb7d98a00f12](https://catalog.data.gov/de/dataset/austin-animal-center-intakes/resource/3762cdf8-ccdb-4de5-83a1-bb7d98a00f12).
+
+Introduction to dash. Plotly. (n.d.). [https://dash.plotly.com/introduction](https://dash.plotly.com/introduction). 
+
+PyMongo 3.12.0 documentation. PyMongo 3.12.0 Documentation - PyMongo 3.12.0 documentation. (n.d.). [https://pymongo.readthedocs.io/en/stable/](https://pymongo.readthedocs.io/en/stable/). 
+
 
 ---
 
@@ -122,19 +132,46 @@ These technologies were chosen for their relative ease of use and rapid stand-up
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/computer-graphics-portfolio).
 ###### This project can be seen on [YouTube](https://www.youtube.com/watch?v=EV29wz9A6gs&t=4s).
 
-## Narrative
-This project written in C++ and utilizing several OpenGL libraries was created as my final project for the course: Computer Graphic and Visualization. It was meant to be a minimalist tribute to the classic point-and-click adventure game, Myst.
+### Narrative
+This project written in C++ and utilizing several OpenGL libraries was created as my final project for the course: Computer Graphic and Visualization. It was meant to be a minimalist tribute to the classic point-and-click adventure game, Myst. This project is a good example of my ability to utilize third party libraries and combine them effectively into a cohesive experience.
 
 This was a particularly challenging project to complete initially as it was a culmination of almost every lesson I've learned at SNHU including design and analysis, planning, time management, object oriented programming (OOP), geometry, physics, data structures, and perhaps most importantly: the ability to learn and adapt.
 
-## Functionality
+### Functionality
+
+Working with OpenGL has given me a better understanding of how C++ organizes it's dependancies. I usually work with C#, which allows you to very easily grab a dependancy 
+either from the managed code bases (i.e. System.Web.dll) or by linking to a class library project within your solution.
+
+I found it challenging and interesting to have the "raw" code for dependancies to be so readily at your finger tips. If need be, a developer could fork an existing dependancy and customize it to their particular needs. I now have a much better understanding of "Dependancy Hell". (Allen, 2016)
+
+While working on this project, I tried to be as iterative as possible. I would not have been able to produce the final project had I not spent the prior six weeks using my existing codebase as the start to each week's assignment. The ability to organize work efforts and execute them in a timely manner, in a logical order is a skill that will serve a developer well not only in their professional career but also in life.
+
+I think the existing development strategies that I use in my professional life worked well. However, if I were able to give advice to my past self (or to future students) it would be to better familiarize yourself with the way C++ structures an application.
+
+I lost hours of productively simply trying to get header files to read from eachother in the correct order. When it finally did work, I had sort of a "Frakenstein" system cobbled together.
+
+I've been using "computer science" since I was 5 years old. It is an essential part of my life and not only has it provided me with a comfortable lifestyle but it has helped me to develop useful skillsets in other areas of my life. The ability to break down situations into logical steps and then execute them in focused "sprints" has helped me do everything from: getting a paycheck to assembling furniture from Ikea.
+
+I have a new found respect for C++ developers. I wouldn't pursue it as a career, but I definetly have a better understanding of the need to be iterative when creating things. Even C# is essentially just a highly wrappered version of underlying C++ functionalities.
+
+## Citations
+
+Allen, A. (2016, August 15). What is dependency hell? Retrieved April 25, 2021, from [https://searchitoperations.techtarget.com/definition/dependency-hell](https://searchitoperations.techtarget.com/definition/dependency-hell)
+
+Contieri, M. (2020, May 26). Fail fast PHILOSOPHY, Explained. Retrieved April 25, 2021, from [https://hackernoon.com/fail-fast-philosophy-explained-si963vk9](https://hackernoon.com/fail-fast-philosophy-explained-si963vk9)
+
+
+
+
+
+
 
 ![image](https://user-images.githubusercontent.com/83176990/129501028-5120b35b-443c-43f8-8173-b224e9940101.png)
 
 
 
 
-
+---
 
 
 
@@ -186,87 +223,6 @@ for (var d in collection.Data) {
 }
 ```
 
-## What new design skills has your work on the project helped you to craft?
-
-Working with OpenGL has given me a better understanding of how C++ organizes it's 
-dependancies. I usually work with C#, which allows you to very easily grab a dependancy 
-either from the managed code bases (i.e. System.Web.dll) or by linking to a class library 
-project within your solution.
-
-I found it challenging and interesting to have the "raw" code for dependancies to be so 
-readily at your finger tips. If need be, a developer could fork an existing dependancy
-and customize it to their particular needs. I now have a much better understanding of 
-"Dependancy Hell". (Allen, 2016)
-
-
-## What design process did you follow for your project work?
-
-While working on my project, I tried to be as iterative as possible. I would not have been 
-able to produce the final project had I not spent the prior six weeks using my existing 
-codebase as the start to each week's assignment.
-
-## How could tactics from your design approach be applied in future work?
-
-The ability to organize work efforts and execute them in a timely manner, in a logical order 
-is a skill that will serve a developer well not only in their professional career but also 
-in life.
-
-## How do I approach developing programs?
-
-When writing code it is important to validate the data you are working with on every level.
-When you receive the data from an external source, validate that it is not null and that it 
-is in the expected format. When iterating across a collection validate that the collection 
-itself is not null and that it has conents. When working with objects, be sure to validate 
-each field's data type.
-
-## What new development strategies did you use while working on your 3D scene?
-
-During the course of this project, I used alot more guess and check than I am normally 
-comfortable with using. Without the aid of CAD I needed to constantly build and run my 
-application to determine if the picture in my head matched what was rendered on screen.
-
-## How did iteration factor into your development?
-
-It was essential. The shear complexity of the final project was the culmination of over 
-40 hours of work, which would have been impossible to do without delegating those efforts 
-over the duration of the entire course.
-
-## How has your approach to developing code evolved throughout the milestones, which led you to the project’s completion?
-
-I think the existing development strategies that I use in my professional life worked well. 
-However, if I were able to give advice to my past self (or to future students in this class)
-it would be to better familiarize yourself with the way C++ structures an application.
-
-I lost hours of productively simply trying to get header files to read from eachother in the 
-correct order. When it finally did work, I had sort of a "Frakenstein" system cobbled together.
-
-## How can computer science help me in reaching my goals?
-
-I've been using "computer science" since I was 5 years old. It is an essential part of my life
-and not only has it provided me with a comfortable lifestyle but it has helped me to develop 
-useful skillsets in other areas of my life. The ability to break down situations into logical
-steps and then execute them in focused "sprints" has helped me do everything from: getting 
-a paycheck to assembling furniture from Ikea.
-
-## How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future educational pathway?
-
-This class will serve as an example of how it is important to completely absorb the content 
-before jumping into an assignment. I think I needlessly made things much more difficult for 
-myself when I started a new assignment, coded for 4 hours, and they once I ran into a roadblock 
-went back to Brightspace only to discover that I've been coding down a blind alley due to a 
-fundamental misunderstanding of a concept that would have already been presented to me.
-
-## How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future professional pathway?
-
-I have a new found respect for C++ developers. I wouldn't pursue it as a career, but I definetly 
-have a better understanding of the need to be iterative when creating things. Even C# is essentially
-just a highly wrappered version of underlying C++ functionalities.
-
-## Citations
-
-Allen, A. (2016, August 15). What is dependency hell? Retrieved April 25, 2021, from [https://searchitoperations.techtarget.com/definition/dependency-hell](https://searchitoperations.techtarget.com/definition/dependency-hell)
-
-Contieri, M. (2020, May 26). Fail fast PHILOSOPHY, Explained. Retrieved April 25, 2021, from [https://hackernoon.com/fail-fast-philosophy-explained-si963vk9](https://hackernoon.com/fail-fast-philosophy-explained-si963vk9)
 
 
 
