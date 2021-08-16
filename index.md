@@ -31,7 +31,7 @@ Personally, I have found live demonstrations to be the most effective method of 
 #### Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices 
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/7-1.Final.Project.Reflection.Paper.pdf).
 ###### This project is available for [Download](https://ryandebraal.com/downloads/4-2.Milestone.Three.Enhancement.Two-Ryan.DeBraal.zip). 
-###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/tree/main/Artifact.One.Data.Structures.and.Algorithms).
+###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/Artifact.One.Data.Structures.and.Algorithms).
 
 For this artifact I chose to consolidate the assignments of Module Three, Five and Six of the CS-260-Q3396 Data Structures and Algorithms course into a single project and allow the user to select which mode they would like to utilize in order to load, read, search and delete bids from a data structure. This was a valuable experience for me because as I revisited each methodology and directly compared them against each other I became much more familiar with the pros and cons of each data structure type.
 
@@ -97,7 +97,7 @@ ZyBooks, https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1
 ![04_elderly](https://user-images.githubusercontent.com/83176990/129497456-43a7bb29-9d10-4849-b904-c758641cf38c.png)
 
 ### Artifact Two: Client\Server Development
-https://github.com/ryandebraalsnhu/ClientServer_PortfolioItem
+###### This project is available for [Download](https://ryandebraal.com/downloads/Artifact.Two.Client.Server.Development.zip). 
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/ClientServer_PortfolioItem).
 
 For this artifact I chose to submit the final project for CS-499-X6397 Computer Science Capstone 21EW6, an application which is used to create, read, update, and delete (CRUD) records from a MongoDB database.
