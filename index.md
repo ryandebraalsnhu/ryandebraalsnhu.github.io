@@ -1,7 +1,7 @@
 
-## Ryan Debraal's ePortfolio
+# Ryan Debraal's ePortfolio
 
-CS-499-X6397 Computer Science Capstone 21EW6
+## CS-499-X6397 Computer Science Capstone 21EW6
 
 ### Introduction
 
@@ -35,7 +35,7 @@ Personally, I have found live demonstrations to be the most effective method of 
 
 For this artifact I chose to consolidate the assignments of Module Three, Five and Six of the CS-260-Q3396 Data Structures and Algorithms course into a single project and allow the user to select which mode they would like to utilize in order to load, read, search and delete bids from a data structure. This was a valuable experience for me because as I revisited each methodology and directly compared them against each other I became much more familiar with the pros and cons of each data structure type.
 
-#### Data Structures
+## Data Structures
 Main.cpp in the FinalProject solution best exemplifies my knowledge and understanding of the data structure types we learned about in this course.
 
 The Linked List mode pulls the data from the CSV and stores it in a data structure with a dynamic size. However, this methodology has several drawbacks:
@@ -60,12 +60,12 @@ In a Binary Search Tree, each node contains a value from a well-ordered set. Eve
 Fig 3. Binary Search Tree
 ![image](https://user-images.githubusercontent.com/83176990/129496862-cf4162b4-b299-4f71-94c6-4d5dfe1579e5.png)
 
-#### Algorithms
+## Algorithms
 
-##### Search
+### Search
 All three data structures (linked lists, hash tables and binary search trees) can be adapted to search for and retrieve values contained within them. The Linked List mode is straight forward but limited in its scope, this kind of data storage and retrieval is only really viable for a collection of perhaps a few hundred entries. The Hash Table mode has significant advantages over the linked list method; however, it also inherits the linked lists disadvantages because the chained hash tables still utilize linked lists, and therefore the space overhead of the “next” pointer can be significant. The Binary Search Tree mode does away with the limitations of the linked-list but it also far more complex to work with, it also requires a “well-ordered set”, meaning the performance of the search algorithm is directly related to how well the data being stored is organized.
 
-##### Sort
+### Sort
 Sorting of a linked list requires a rather convoluted methodology, because a singly linked list can only be iterated across in one direction, this would require a separate object to be instantiated and maintained in order to capture values that are “above” or “below” the current pointer. (GeeksforGeeks, 2020)
 Fig 4. Pseudo Code for sorting a linked list
  
@@ -77,22 +77,22 @@ Hash/Chaining
 Hash Chaining is a clever workaround to the limitations of linked lists and the complications of binary search trees. While “under the hood” it seems somewhat clunky in its implementation, ultimately the ability to lookup data values by hash is a worthwhile endeavor that can make an application run faster and easier to develop.
 “Search time for hash table lookups are reduced significantly, searching (or inserting / removing) an item may require only O(1), in contrast to O(N) for searching a list or to O(log N) for binary search.” (zyBooks)
 
-##### Effectiveness
+### Effectiveness
 Main.cpp in the FinalProject solution was my favorite program to write, because it allowed me to “take off the training wheels” and code something that wasn’t prescribed. I liked creating the “modes” for each data structure type and organizing the different functionalities into discrete methods. I wish I had had more time to make the code mode modular. I ended up sticking all the classes I created into a single .cpp file which made it quite long and harder and harder to maintain as time went on. I didn’t take the time to learn about the relationship between .cpp files and .h files, so “importing” classes was out of the question. I ended up using regions to better organize code, but if I were to continue development on this project I would move the LinkedList, HashTable, and BinarySearchTree classes into individual files.
 
 I think the code is highly reusable, all the data structure implementations can be adapted to another project simply be swapping our the Bid struct for another object that needs to be maintained in a collection.
 
 I am pleased with the annotations I placed in the code base, I try to code based on a motto I heard several years ago: “verbosity over brevity”, To me this means it does not serve anyone better to write code that isn’t cleanly organized and well documented. I think software developers are often tempted to try to condense their code into the smallest amount of space as possible, especially with the advent of LINQ. Coding something that works is the most important, but coding something that can be easily interpreted by another developer is a close second.
 
-##### Conclusion
+### Conclusion
 When building something, either in code or in the real world, it is important to use the right tool for the job. Knowing which kind of data structure to use will save development time and result in cleaner, faster code. In this case, I think the eBid Search application that we created was best organized using the Binary Search Tree data structure because each entry has a gaurenteed BidID, I would modify the BidID to be an integer value rather than a string value because that would allow the BST to more quickly determine which branch (left or right) to go down, I imagine the string manipulation of the unique identifier would eventually have a significant impact on search speed.
 I was routinely surprised by the amount of effort put into creating things that I routinely take for granted in my day-to-day work developing applications in C#. Dictionarys, LINQ, NO Pointers. These are just a handful of examples of the kinds of tools that I routinely us and never give a second thought.
 
-##### Citations
-Insertion Sort for Singly Linked List. GeeksforGeeks, 3 Feb. 2020, www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/
-InterviewBit. “Linked Lists.” InterviewBit, www.interviewbit.com/courses/programming/topics/linked-lists/
-Nilsson, Stefan. “Binary Search Trees Explained.” · YourBasic, Yourbasic.org, www.yourbasic.org/algorithms/binary-search-tree/
-ZyBooks, https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1
+### Citations
+Insertion Sort for Singly Linked List. GeeksforGeeks, 3 Feb. 2020, [www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/](www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
+InterviewBit. “Linked Lists.” InterviewBit, [www.interviewbit.com/courses/programming/topics/linked-lists/](www.interviewbit.com/courses/programming/topics/linked-lists/)
+Nilsson, Stefan. “Binary Search Trees Explained.” · YourBasic, Yourbasic.org, [www.yourbasic.org/algorithms/binary-search-tree/](www.yourbasic.org/algorithms/binary-search-tree/)
+ZyBooks, [https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1](https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1)
 
 ![image](https://user-images.githubusercontent.com/83176990/129497826-14effb73-987a-482b-b5e7-5061ae2799e2.png)
 
