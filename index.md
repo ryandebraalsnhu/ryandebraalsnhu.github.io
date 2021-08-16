@@ -13,7 +13,7 @@ However, when I started classes at SNHU, my slapdash attempts at writing papers 
 
 ### Objective
 
-My objective while creating this ePortfolio was to curate the work that I have done in previous courses. In their original incarnations, I demonstrated basic aptitude but now with  additional time and research I've improved upon these codebases and hopefully achieved excellence. I am confident that I've illustrated my ability to iterate upon an existing project and demonstrate that I can not only create useful software but to enhance preexisting software with an eye towards a meaningful future state.
+My objective while creating this ePortfolio was to curate the work that I had done in previous courses. In their original incarnations, I demonstrated basic aptitude but now with  additional time and research I've improved upon these codebases and hopefully achieved some semblance of excellence. I am confident that I've illustrated my ability to iterate upon an existing project and demonstrate that I can not only create useful software but to enhance preexisting software with an eye towards a meaningful future state.
 
 This ePortfolio represents only a small vertical slice of my development experiences at SNHU.
 
@@ -67,10 +67,12 @@ Coding something that works is the most important, but coding something that can
 
 In the (almost certainly misattributed) words of Albert Einstein:
 
-> If you can't explain it simply, you don't understand it well enough. (Unknown)
+> If you can't explain it simply, you don't understand it well enough.
 
 ### Citations
 Contieri, M. (2020, May 26). Fail fast PHILOSOPHY, Explained. Retrieved April 25, 2021, from [https://hackernoon.com/fail-fast-philosophy-explained-si963vk9](https://hackernoon.com/fail-fast-philosophy-explained-si963vk9).
+
+Stackoverflow.com. Did Einstein say "if you can't explain it simply you don't understand it WELL ENOUGH"? Skeptics Stack Exchange. (2012, April 15). https://skeptics.stackexchange.com/questions/8742/did-einstein-say-if-you-cant-explain-it-simply-you-dont-understand-it-well-en. 
 
 ---
 
