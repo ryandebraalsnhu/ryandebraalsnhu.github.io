@@ -9,7 +9,6 @@ CS-499-X6397 Computer Science Capstone 21EW6
 
 
 ### What Makes a Productive Code Review?
-#### Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science 
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/2-1.Journal.What.Makes.a.Productive.Code.Review-Ryan.DeBraal.pdf).
 
 ![image](https://user-images.githubusercontent.com/83176990/129496538-24f8168d-57e9-4912-bb0b-e97ca50cb780.png)
@@ -26,9 +25,7 @@ Code reviews should occur frequently throughout the development process. The Agi
 
 Personally, I have found live demonstrations to be the most effective method of code review. It has been my experience that software developers can become very myopic when looking at the code rather than how the code functions from the perspective of the user. No code is bug free, and all code can always be improved in one way or another, but it is important that the developer understands that what they are building is ultimately to satisfy a customer’s needs. So, the first step in developing code is to make it do what the customer wants, the second step should be to retain the quality of the code but still make sure that it does what the customer wants. I have seen numerous occasions when code refactoring has resulted in much cleaner code that no longer performs the basic operations that the “spaghetti code” mysteriously was able to achieve.
 
-
 ![image](https://user-images.githubusercontent.com/83176990/129497305-be8187b0-1f5d-49de-9e96-ef03fff7e9d7.png)
-
 
 ### Artifact One: Data Structures and Algorithms
 #### Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices 
@@ -103,40 +100,10 @@ ZyBooks, https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1
 https://github.com/ryandebraalsnhu/ClientServer_PortfolioItem
 ###### This project is available as a [Repo](https://github.com/ryandebraalsnhu/ClientServer_PortfolioItem).
 
-# Animal Shelter
-
-## About
-Animal Shelter is an application which is used to create, read, update, and delete (CRUD) records from a MongoDB database.
+For this artifact I chose to submit the final project for CS-499-X6397 Computer Science Capstone 21EW6, an application which is used to create, read, update, and delete (CRUD) records from a MongoDB database.
 
 ## Motivation
 Animal Shelter was created to facilitate record keeping for the Austin Animal Control Center (AAC) database.
-
-## Getting Started
-To run the Animal Shelter application, you must have the following prerequisite software installed:
-*	Python 3.6+
-*	MongoDB
-*	PyMongo
-*	Jupyter Notebook
-
-## Usage
-Animal Shelter can be executed from within Jupyter Notebook by performing the following actions:
-*	Open 'ProjectTwoDashboard.ipynb' notebook
-*	Modify the port number used to instantiate the AnimalShelter object to match your environment
-*	Press the 'Run' button
-*	Click 'Open in new window' link
-*     Please wait patiently…
-
-## Roadmap/Features
-*	Enhance user interface to allow for INSERT, UPDATE, DELETE features
-	
-## Contact
-ryan.debraal@snhu.edu
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
-
 
 ## Functionality
 The application in its current state can be used to navigate the AAC database, filter by various conditions, visualize the GPS location where the animal was found, and generate a breakdown of outcomes per filtered section.
@@ -151,24 +118,6 @@ The data access layer (DAL), or Controller in MVC parlance, utilizes PyMongo (ht
 The user interface, or View in MVC parlance, is powered by Dash (https://dash.plotly.com/introduction), a framework for building web analytic applications.
 
 These technologies were chosen for their relative ease of use and rapid stand-up time. Each component of this n-tier application was developed modularly so that it could be enhanced or swapped out easily in the future as need dictates. For example, if the client decided that they wanted the application to run on the Django web framework, they could simply reutilize the existing CRUD.py component and write a new user interface.
-
-## Screenshots
-
-The following reference screenshots show the application at runtime. To view these images in more detail please refer to the included reference screenshots or execute the application in your own instance of Jupyter Notebook.
-### Development Environment
- 
-
-### Water Rescue
- 
-### Mountain Rescue
- 
-
-
-
-
-### Disaster Rescue  
-### Elderly (15+)  
-### Reset 
 
 
 
