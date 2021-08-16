@@ -106,16 +106,10 @@ For this artifact I chose to submit the final project for CS-499-X6397 Computer 
 Animal Shelter was created to facilitate record keeping for the Austin Animal Control Center (AAC) database.
 
 ## Functionality
-The application in its current state can be used to navigate the AAC database, filter by various conditions, visualize the GPS location where the animal was found, and generate a breakdown of outcomes per filtered section.
-
-In the future this application can be expanded to create a fully realized CRUD application capable of maintaining the data retained and administrated by the Austin Animal Control Center.
+The application in its current state can be used to navigate the AAC database, filter by various conditions, visualize the GPS location where the animal was found, and generate a breakdown of outcomes per filtered section. In the future this application can be expanded to create a fully realized CRUD application capable of maintaining the data retained and administrated by the Austin Animal Control Center.
 
 ## Tools and rationale
-This application was developed to leverage the pre-existing instance of MongoDB, which is a document-based, “No-SQL” database. 
-
-The data access layer (DAL), or Controller in MVC parlance, utilizes PyMongo (https://pymongo.readthedocs.io/en/stable/) to create, read, update, and delete (CRUD) data. 
-
-The user interface, or View in MVC parlance, is powered by Dash (https://dash.plotly.com/introduction), a framework for building web analytic applications.
+This application was developed to leverage the pre-existing instance of MongoDB, which is a document-based, “No-SQL” database. The data access layer (DAL), or Controller in MVC parlance, utilizes [PyMongo](https://pymongo.readthedocs.io/en/stable/) to create, read, update, and delete (CRUD) data. The user interface, or View in MVC parlance, is powered by [Dash](https://dash.plotly.com/introduction), a framework for building web analytic applications.
 
 These technologies were chosen for their relative ease of use and rapid stand-up time. Each component of this n-tier application was developed modularly so that it could be enhanced or swapped out easily in the future as need dictates. For example, if the client decided that they wanted the application to run on the Django web framework, they could simply reutilize the existing CRUD.py component and write a new user interface.
 
