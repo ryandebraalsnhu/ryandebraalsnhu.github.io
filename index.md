@@ -37,7 +37,7 @@ When someone reviews code they should be looking for common issues such as misse
 
 Code reviews should occur frequently throughout the development process. The Agile process is specifically designed to place code reviews at pivotal junctures throughout the SDLC. After a user story is completed and submitted as a pull request, a developer should be made responsible for reviewing the code. This way there is a system of checks in place to make sure that more than one person has signed off on a piece of code and that responsibility for the correct functioning of a piece of code is shared between multiple developers.
 
-Personally, I have found live demonstrations to be the most effective method of code review. It has been my experience that software developers can become very myopic when looking at the code rather than how the code functions from the perspective of the user. No code is bug free, and all code can always be improved in one way or another, but it is important that the developer understands that what they are building is ultimately to satisfy a customer’s needs. So, the first step in developing code is to make it do what the customer wants, the second step should be to retain the quality of the code but still make sure that it does what the customer wants. I have seen numerous occasions when code refactoring has resulted in much cleaner code that no longer performs the basic operations that the “spaghetti code” mysteriously was able to achieve.
+Personally, I have found live demonstrations to be the most effective method of code review. It has been my experience that software developers can become very myopic when looking at the code rather than how the code functions from the perspective of the user. No code is bug free, and all code can always be improved in one way or another, but it is important that the developer understands that what they are building is ultimately to satisfy a customer’s needs.
 
 ---
 
@@ -160,30 +160,15 @@ Allen, A. (2016, August 15). What is dependency hell? Retrieved April 25, 2021, 
 
 Contieri, M. (2020, May 26). Fail fast PHILOSOPHY, Explained. Retrieved April 25, 2021, from [https://hackernoon.com/fail-fast-philosophy-explained-si963vk9](https://hackernoon.com/fail-fast-philosophy-explained-si963vk9)
 
-
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/83176990/129501028-5120b35b-443c-43f8-8173-b224e9940101.png)
-
-
-
-
 ---
 
+## Self Assessment
 
+Whenever possible I try to employ a "fail fast" philosophy, which is sometimes known as "defensive programming". (Contieri, 2020) 
 
-## How do I approach designing software?
+Whenever I write code, I immedietly try to determine if the data is valid. If it isn't, I stop working with it immediately and return a well formatted exception. It is pointless to try to "shove bad data" through the business logic.
 
-Personally, I always employee a "fail fast" philosophy, which is sometimes known as 
-"defensive programming". (Contieri, 2020) Whenever I write code, I immedietly try 
-to determine if the data is valid. If it isn't, I stop working with it immediately 
-and return a well formatted exception. It is pointless to try to "shove bad data" 
-through the business logic.
-
-Very often I see code which looks like this:
+I've often seen code online that looks like this:
 
 ```
 if (collection != null) {
@@ -207,9 +192,7 @@ if (collection != null) {
 }
 ```
 
-This is needlessly convoluted "spagetti code". This same logic could be refactored to read 
-more cleanly and be more robust by simply testing the data and stopping progress (fail fast) 
-as soon as the data isn't viable:
+The above (imho) looks like needlessly convoluted. This same logic could be refactored to read more cleanly and be more robust by simply testing the data and stopping progress (fail fast) as soon as the data isn't viable:
 
 ```
 if (collection == null || collection.Data == null || !collection.Data.Any())
@@ -223,7 +206,9 @@ for (var d in collection.Data) {
 }
 ```
 
+In my opinion, the first step in developing code is to make it do what the customer wants, the second step should be to retain the quality of the code but still make sure that it does what the customer wants. I have seen numerous occasions when code refactoring has resulted in much cleaner code that no longer performs the basic operations that the “spaghetti code” mysteriously was able to achieve.
 
+In the words of Albert Einstein:
 
-
+> If you can't explain it simply, you don't understand it well enough.
 
