@@ -94,7 +94,7 @@ InterviewBit. “Linked Lists.” InterviewBit, www.interviewbit.com/courses/pro
 Nilsson, Stefan. “Binary Search Trees Explained.” · YourBasic, Yourbasic.org, www.yourbasic.org/algorithms/binary-search-tree/
 ZyBooks, https://learn.zybooks.com/zybook/SNHUCS260AY16-17/chapter/5/section/1
 
-![04_elderly](https://user-images.githubusercontent.com/83176990/129497456-43a7bb29-9d10-4849-b904-c758641cf38c.png)
+![image](https://user-images.githubusercontent.com/83176990/129497826-14effb73-987a-482b-b5e7-5061ae2799e2.png)
 
 ### Artifact Two: Client\Server Development
 ###### This project is available for [Download](https://ryandebraal.com/downloads/Artifact.Two.Client.Server.Development.zip). 
