@@ -1,2 +1,0 @@
-D:\SNHU\Computer Science Capstone\Data Structures and Algorithms\FinalProject\FinalProject\Debug\FinalProject.exe
-D:\SNHU\Computer Science Capstone\Data Structures and Algorithms\FinalProject\FinalProject\Debug\FinalProject.pdb
