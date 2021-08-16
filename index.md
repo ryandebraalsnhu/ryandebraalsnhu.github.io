@@ -61,7 +61,7 @@ for (var d in collection.Data) {
 }
 ```
 
-The first step in developing code is to make it do what the customer wants, the second step should be to retain the quality of the code but still make sure that it does what the customer wants. I have seen numerous occasions when code refactoring has resulted in much cleaner code that no longer performs the basic operations that the “spaghetti code” mysteriously was able to achieve. 
+I believe the first step when developing code is to make sure that it does what the customer wants. The second step should be to refine the quality of the code but still **make sure that it does what the customer wants**. I have seen numerous occasions when code refactoring has resulted in much cleaner code that no longer performs the basic operations that the “spaghetti code” mysteriously was able to achieve. 
 
 Coding something that works is the most important, but coding something that can be easily interpreted by another developer is a close second.
 
