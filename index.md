@@ -1,4 +1,5 @@
 ### Introduction
+![image](https://user-images.githubusercontent.com/83176990/129499810-55183e75-5e0c-4348-9d6d-92849437c911.png)
 
 Hello, my name is Ryan DeBraal. I live with my wife in Chicago and work as a Software Developer in the Information Security sector. I have been attending SNHU for approximately three years. I returned to academia after a ten-year hiatus because I wanted to complete my degree. 
 
@@ -17,9 +18,8 @@ I realized that the game industry had an awful turnover rate rife with “crunch
 This ePortfolio represents a small slice of my experiences at SNHU.
 
 ### What Makes a Productive Code Review?
-###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/2-1.Journal.What.Makes.a.Productive.Code.Review-Ryan.DeBraal.pdf).
-
 ![image](https://user-images.githubusercontent.com/83176990/129496538-24f8168d-57e9-4912-bb0b-e97ca50cb780.png)
+###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/2-1.Journal.What.Makes.a.Productive.Code.Review-Ryan.DeBraal.pdf).
 
 A code review is as important to a software developer as a second draft is to an author. Good software is not written in bursts of inspiration but rather honed and perfected over the course of many iterations. 
 
