@@ -12,6 +12,8 @@ CS-499-X6397 Computer Science Capstone 21EW6
 #### Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science 
 ###### This article is available as a [PDF](https://github.com/ryandebraalsnhu/ryandebraalsnhu.github.io/blob/main/2-1.Journal.What.Makes.a.Productive.Code.Review-Ryan.DeBraal.pdf).
 
+![image](https://user-images.githubusercontent.com/83176990/129496538-24f8168d-57e9-4912-bb0b-e97ca50cb780.png)
+
 A code review is as important to a software developer as a second draft is to an author. Good software is not written in bursts of inspiration but rather honed and perfected over the course of many iterations. 
 
 Code reviews come in a variety of forms including pair programming, over-the-shoulder presentations, and even tool assisted code checks. A typical code review usually consists of one developer reviewing another developer’s code and trying to identify mistakes.
@@ -24,8 +26,8 @@ Code reviews should occur frequently throughout the development process. The Agi
 
 Personally, I have found live demonstrations to be the most effective method of code review. It has been my experience that software developers can become very myopic when looking at the code rather than how the code functions from the perspective of the user. No code is bug free, and all code can always be improved in one way or another, but it is important that the developer understands that what they are building is ultimately to satisfy a customer’s needs. So, the first step in developing code is to make it do what the customer wants, the second step should be to retain the quality of the code but still make sure that it does what the customer wants. I have seen numerous occasions when code refactoring has resulted in much cleaner code that no longer performs the basic operations that the “spaghetti code” mysteriously was able to achieve.
 
-![image](https://user-images.githubusercontent.com/83176990/129496538-24f8168d-57e9-4912-bb0b-e97ca50cb780.png)
 
+![image](https://user-images.githubusercontent.com/83176990/129497305-be8187b0-1f5d-49de-9e96-ef03fff7e9d7.png)
 
 
 ### Artifact One: Data Structures and Algorithms
